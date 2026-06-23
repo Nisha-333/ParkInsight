@@ -1,0 +1,10 @@
+{
+  "eps_weight_violations": 0.4,
+  "eps_weight_delay": 0.35,
+  "eps_weight_complaints": 0.25,
+  "ghost_violation_speed_drop_threshold_pct": 50,
+  "urgent_eps_threshold": 0.75,
+  "blind_spot_complaint_minimum": 120,
+  "cache_ttl_seconds": 30,
+  "updated_at": "2026-06-17T05:22:45Z"
+}

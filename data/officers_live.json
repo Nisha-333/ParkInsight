@@ -1,0 +1,50 @@
+[
+  {
+    "officer_id": "OFF-0017",
+    "route_id": "ROUTE-01",
+    "name": "Suresh B.",
+    "vehicle": "TOWING TRUCK",
+    "station_sequence": [
+      "Upparpet",
+      "Shivajinagar",
+      "City Market"
+    ],
+    "current_lat": 12.97788,
+    "current_lon": 77.57278,
+    "status": "En Route",
+    "completed_stops": 0,
+    "checked_items": 3
+  },
+  {
+    "officer_id": "OFF-0034",
+    "route_id": "ROUTE-02",
+    "name": "Kavitha R.",
+    "vehicle": "PATROL CAR",
+    "station_sequence": [
+      "HAL Old Airport",
+      "Malleshwaram",
+      "Kodigehalli"
+    ],
+    "current_lat": 12.94878,
+    "current_lon": 77.6964,
+    "status": "Available",
+    "completed_stops": 1,
+    "checked_items": 0
+  },
+  {
+    "officer_id": "OFF-0051",
+    "route_id": "ROUTE-03",
+    "name": "Manjunath P.",
+    "vehicle": "TOWING TRUCK",
+    "station_sequence": [
+      "Vijayanagara",
+      "Magadi Road",
+      "Whitefield"
+    ],
+    "current_lat": 12.97937,
+    "current_lon": 77.54357,
+    "status": "On Scene",
+    "completed_stops": 1,
+    "checked_items": 2
+  }
+]

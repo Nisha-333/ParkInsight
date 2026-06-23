@@ -1,0 +1,23 @@
+[
+  {
+    "code": "METRO20K1",
+    "desc": "20% off Namma Metro Top-up",
+    "value": "\u20b940",
+    "expiry": "2024-12-31",
+    "redeemed": false
+  },
+  {
+    "code": "BMTC15K1",
+    "desc": "15% off BMTC Day Pass",
+    "value": "\u20b922",
+    "expiry": "2024-09-30",
+    "redeemed": true
+  },
+  {
+    "code": "METRO20K2",
+    "desc": "20% off Namma Metro Top-up",
+    "value": "\u20b940",
+    "expiry": "2025-03-31",
+    "redeemed": false
+  }
+]

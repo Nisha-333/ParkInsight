@@ -1,0 +1,70 @@
+[
+  {
+    "user_id": "USR_ADMIN_01",
+    "email": "admin@parkinsight.ai",
+    "name": "Commissioner Venkat R.",
+    "role": "admin",
+    "salt": "d77030a9117890c968e399700c3b8f5b",
+    "password_hash": "SqMCQC1j/mzeS7ZCOzlR5S67lRSfQk05gsRwY70bL6A=",
+    "assigned_unit": "BBMP Traffic Command",
+    "status": "active"
+  },
+  {
+    "user_id": "USR_994821",
+    "email": "ramesh.kumar@bengalurupolice.gov.in",
+    "name": "Ramesh Kumar",
+    "role": "police",
+    "salt": "e285370259e56cbf2e5ec5aa9d715ef1",
+    "password_hash": "UYQDvKVDMs3TfIFOW148HamwdX7xhK/PBrB2aOYEXro=",
+    "assigned_unit": "Madiwala Traffic Police Station",
+    "vehicle_access": "TOW_TRUCK_LIGHT",
+    "route_id": "OFFICER_01",
+    "status": "active"
+  },
+  {
+    "user_id": "USR_AC156DE8",
+    "email": "xyz@gmail.com",
+    "name": "officer xyz",
+    "role": "police",
+    "salt": "ba97c9f09e15175fb69b8babc29e05ef",
+    "password_hash": "GkEo6TIA72NY11llCQsyg56D5fw8KbNd9xGQ6XNHhwU=",
+    "status": "active",
+    "badge_number": "456",
+    "assigned_unit": "4",
+    "vehicle_access": "FOUR_WHEELER_PATROL",
+    "route_id": "OFFICER_02",
+    "requested_at": "2026-06-20T07:08:12Z"
+  },
+  {
+    "user_id": "USR_7B35A299",
+    "email": "abc@gmail.com",
+    "name": "abc",
+    "role": "police",
+    "salt": "0d738b0fef11a0141085835dca2bf2db",
+    "password_hash": "zDuLucuhae/BsbbwkysdM9f/86x1xNbxhg1SwbHL0co=",
+    "status": "active",
+    "badge_number": "5",
+    "assigned_unit": "5",
+    "vehicle_access": "FOUR_WHEELER_PATROL",
+    "route_id": "OFFICER_03",
+    "requested_at": "2026-06-20T07:22:46Z"
+  },
+  {
+    "user_id": "USR_F3EB0C91",
+    "email": "acharyanishad06@gmail.com",
+    "name": "nisha",
+    "role": "citizen",
+    "salt": "c751a3953727685cef49465fa12850e4",
+    "password_hash": "wWAzLmg6IZ9hdqYaw+kp2euGGZ0RJ6EVpppGtCIVLew=",
+    "status": "active"
+  },
+  {
+    "user_id": "USR_D75F5480",
+    "email": "n@gmail.com",
+    "name": "nisha",
+    "role": "citizen",
+    "salt": "617b6c6a362c617a15d7c24c597208d8",
+    "password_hash": "zQVtgiLgNUIWJNZf7t5t6diDrzUqI/idWsBePrQmpvQ=",
+    "status": "active"
+  }
+]

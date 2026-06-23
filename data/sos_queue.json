@@ -1,0 +1,44 @@
+[
+  {
+    "officer_id": "USR_994821",
+    "latitude": 12.9767,
+    "longitude": 77.5774,
+    "issue": "Emergency bottleneck",
+    "needs_heavy_tow": true,
+    "flag_id": "SOS-9B1027",
+    "created_at": "2026-06-20T11:30:56Z",
+    "resolved": false
+  },
+  {
+    "officer_id": "USR_994821",
+    "officer_name": "Ramesh Kumar",
+    "latitude": 13.4947,
+    "longitude": 74.71096,
+    "issue": "Heavy truck blocking the way",
+    "needs_heavy_tow": true,
+    "flag_id": "SOS-BFE52C",
+    "created_at": "2026-06-17T19:12:44Z",
+    "resolved": false
+  },
+  {
+    "officer_id": "USR_994821",
+    "officer_name": "Ramesh Kumar",
+    "latitude": 13.49483,
+    "longitude": 74.71124,
+    "issue": "Heavy truck blocking full road",
+    "needs_heavy_tow": false,
+    "flag_id": "SOS-FAF022",
+    "created_at": "2026-06-17T05:30:43Z",
+    "resolved": false
+  },
+  {
+    "officer_id": "OFF-0017",
+    "issue": "Heavy truck blocking junction",
+    "needs_heavy_tow": true,
+    "latitude": 12.978,
+    "longitude": 77.572,
+    "flag_id": "SOS-C58F39",
+    "created_at": "2026-06-17T05:22:45Z",
+    "resolved": false
+  }
+]

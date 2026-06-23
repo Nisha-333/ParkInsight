@@ -1,0 +1,42 @@
+[
+  {
+    "user_id": "USR_001",
+    "name": "Priya Sharma",
+    "tier": "Gold Traffic Marshal",
+    "credits": 1320,
+    "verified_reports": 31,
+    "redeemed": 2
+  },
+  {
+    "user_id": "USR_002",
+    "name": "Rahul Nair",
+    "tier": "Silver Warden",
+    "credits": 580,
+    "verified_reports": 14,
+    "redeemed": 0
+  },
+  {
+    "user_id": "USR_003",
+    "name": "Deepa Menon",
+    "tier": "Bronze Sentinel",
+    "credits": 190,
+    "verified_reports": 5,
+    "redeemed": 1
+  },
+  {
+    "user_id": "USR_F3EB0C91",
+    "name": "nisha",
+    "tier": "Bronze Sentinel",
+    "credits": 0,
+    "verified_reports": 0,
+    "redeemed": 0
+  },
+  {
+    "user_id": "USR_D75F5480",
+    "name": "nisha",
+    "tier": "Bronze Sentinel",
+    "credits": 80,
+    "verified_reports": 0,
+    "redeemed": 0
+  }
+]

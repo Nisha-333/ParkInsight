@@ -1,0 +1,578 @@
+[
+  {
+    "junction_name": "BTP001 - 10th Cross, Dr. Rajkumar Road",
+    "display_name": "BTP001 - 10th Cross, Dr. Rajkumar Road",
+    "latitude": 13.009325,
+    "longitude": 77.554774
+  },
+  {
+    "junction_name": "BTP010 - Rajajinagar Entrance",
+    "display_name": "BTP010 - Rajajinagar Entrance",
+    "latitude": 12.984076,
+    "longitude": 77.560491
+  },
+  {
+    "junction_name": "BTP011 - RR Kalyana Mantapa, Dr. Rajkumar Road",
+    "display_name": "BTP011 - RR Kalyana Mantapa, Dr. Rajkumar Road",
+    "latitude": 12.993109,
+    "longitude": 77.554478
+  },
+  {
+    "junction_name": "BTP016 - 5th Main Road, RPC Layout",
+    "display_name": "BTP016 - 5th Main Road, RPC Layout",
+    "latitude": 12.964945,
+    "longitude": 77.538875
+  },
+  {
+    "junction_name": "BTP017 - Attiguppe Circle",
+    "display_name": "BTP017 - Attiguppe Circle",
+    "latitude": 12.95913,
+    "longitude": 77.535248
+  },
+  {
+    "junction_name": "BTP020 - Hosahalli Metro Station",
+    "display_name": "BTP020 - Hosahalli Metro Station",
+    "latitude": 12.974037,
+    "longitude": 77.545444
+  },
+  {
+    "junction_name": "BTP022 - Marenahalli Junction, Vijayanagar",
+    "display_name": "BTP022 - Marenahalli Junction, Vijayanagar",
+    "latitude": 12.969936,
+    "longitude": 77.537081
+  },
+  {
+    "junction_name": "BTP023 - Mahalaxmi Layout Entrance",
+    "display_name": "BTP023 - Mahalaxmi Layout Entrance",
+    "latitude": 13.009076,
+    "longitude": 77.549316
+  },
+  {
+    "junction_name": "BTP024 - NPS, Vijayanagar",
+    "display_name": "BTP024 - NPS, Vijayanagar",
+    "latitude": 12.985149,
+    "longitude": 77.544525
+  },
+  {
+    "junction_name": "BTP027 - Modi Bridge Junction",
+    "display_name": "BTP027 - Modi Bridge Junction (13.0000, 77.5508)",
+    "latitude": 12.999998,
+    "longitude": 77.550779
+  },
+  {
+    "junction_name": "BTP027 - Modi Bridge Junction",
+    "display_name": "BTP027 - Modi Bridge Junction (12.9959, 77.5499)",
+    "latitude": 12.995895,
+    "longitude": 77.549886
+  },
+  {
+    "junction_name": "BTP030 - Mekhri Circle",
+    "display_name": "BTP030 - Mekhri Circle",
+    "latitude": 13.013535,
+    "longitude": 77.58631
+  },
+  {
+    "junction_name": "BTP032 - Windsor Circle",
+    "display_name": "BTP032 - Windsor Circle (12.9929, 77.5895)",
+    "latitude": 12.992912,
+    "longitude": 77.58951
+  },
+  {
+    "junction_name": "BTP032 - Windsor Circle",
+    "display_name": "BTP032 - Windsor Circle (12.9967, 77.5833)",
+    "latitude": 12.996655,
+    "longitude": 77.583261
+  },
+  {
+    "junction_name": "BTP033 - Sophia High School, Sankey Road",
+    "display_name": "BTP033 - Sophia High School, Sankey Road",
+    "latitude": 12.986016,
+    "longitude": 77.586801
+  },
+  {
+    "junction_name": "BTP034 - LRDE Junction",
+    "display_name": "BTP034 - LRDE Junction",
+    "latitude": 12.9874,
+    "longitude": 77.594619
+  },
+  {
+    "junction_name": "BTP040 - Elite Junction",
+    "display_name": "BTP040 - Elite Junction",
+    "latitude": 12.977443,
+    "longitude": 77.575659
+  },
+  {
+    "junction_name": "BTP042 - Minsk Square Junction (CTO)",
+    "display_name": "BTP042 - Minsk Square Junction (CTO)",
+    "latitude": 12.980725,
+    "longitude": 77.600075
+  },
+  {
+    "junction_name": "BTP044 - Sagar Theatre Junction",
+    "display_name": "BTP044 - Sagar Theatre Junction (12.9720, 77.5778)",
+    "latitude": 12.971962,
+    "longitude": 77.577842
+  },
+  {
+    "junction_name": "BTP044 - Sagar Theatre Junction",
+    "display_name": "BTP044 - Sagar Theatre Junction (12.9775, 77.5795)",
+    "latitude": 12.977475,
+    "longitude": 77.579493
+  },
+  {
+    "junction_name": "BTP047 - Vidhan Soudha Metro Station",
+    "display_name": "BTP047 - Vidhan Soudha Metro Station",
+    "latitude": 12.978505,
+    "longitude": 77.590834
+  },
+  {
+    "junction_name": "BTP048 - Shanthala Junction",
+    "display_name": "BTP048 - Shanthala Junction",
+    "latitude": 12.971154,
+    "longitude": 77.56906
+  },
+  {
+    "junction_name": "BTP051 - Safina Plaza Junction",
+    "display_name": "BTP051 - Safina Plaza Junction",
+    "latitude": 12.980921,
+    "longitude": 77.608521
+  },
+  {
+    "junction_name": "BTP054 - Shivananda Circle",
+    "display_name": "BTP054 - Shivananda Circle",
+    "latitude": 12.985664,
+    "longitude": 77.577343
+  },
+  {
+    "junction_name": "BTP061 - Bhashyam Circle",
+    "display_name": "BTP061 - Bhashyam Circle",
+    "latitude": 12.986603,
+    "longitude": 77.552964
+  },
+  {
+    "junction_name": "BTP063 - Siddalingaiah Circle",
+    "display_name": "BTP063 - Siddalingaiah Circle",
+    "latitude": 12.970867,
+    "longitude": 77.595973
+  },
+  {
+    "junction_name": "BTP064 - Devanga Hostel Junction",
+    "display_name": "BTP064 - Devanga Hostel Junction",
+    "latitude": 12.963231,
+    "longitude": 77.588615
+  },
+  {
+    "junction_name": "BTP067 - Jai Muni Rao Circle",
+    "display_name": "BTP067 - Jai Muni Rao Circle",
+    "latitude": 12.978529,
+    "longitude": 77.542386
+  },
+  {
+    "junction_name": "BTP069 - MC Circle",
+    "display_name": "BTP069 - MC Circle",
+    "latitude": 12.977346,
+    "longitude": 77.547345
+  },
+  {
+    "junction_name": "BTP070 - Cholurpalya Junction, Magadi Road",
+    "display_name": "BTP070 - Cholurpalya Junction, Magadi Road",
+    "latitude": 12.973652,
+    "longitude": 77.551095
+  },
+  {
+    "junction_name": "BTP074 - Leprosy Hospital Junction",
+    "display_name": "BTP074 - Leprosy Hospital Junction (12.9756, 77.5610)",
+    "latitude": 12.975579,
+    "longitude": 77.561018
+  },
+  {
+    "junction_name": "BTP074 - Leprosy Hospital Junction",
+    "display_name": "BTP074 - Leprosy Hospital Junction (12.9783, 77.5633)",
+    "latitude": 12.978323,
+    "longitude": 77.563268
+  },
+  {
+    "junction_name": "BTP076 - Hudson Circle",
+    "display_name": "BTP076 - Hudson Circle",
+    "latitude": 12.968271,
+    "longitude": 77.587726
+  },
+  {
+    "junction_name": "BTP080 - NR Road, SP Road Junction",
+    "display_name": "BTP080 - NR Road, SP Road Junction",
+    "latitude": 12.964153,
+    "longitude": 77.581547
+  },
+  {
+    "junction_name": "BTP082 - KR Market Junction",
+    "display_name": "BTP082 - KR Market Junction",
+    "latitude": 12.964364,
+    "longitude": 77.576093
+  },
+  {
+    "junction_name": "BTP089 - Police Quarters, Sultan Road",
+    "display_name": "BTP089 - Police Quarters, Sultan Road",
+    "latitude": 12.96197,
+    "longitude": 77.564455
+  },
+  {
+    "junction_name": "BTP091 - Sirsi Circle",
+    "display_name": "BTP091 - Sirsi Circle",
+    "latitude": 12.95944,
+    "longitude": 77.561419
+  },
+  {
+    "junction_name": "BTP093 - Toll Gate, Mysore Road",
+    "display_name": "BTP093 - Toll Gate, Mysore Road",
+    "latitude": 12.957747,
+    "longitude": 77.553037
+  },
+  {
+    "junction_name": "BTP095 - Satellite Bus Stand, Mysore Road",
+    "display_name": "BTP095 - Satellite Bus Stand, Mysore Road",
+    "latitude": 12.953781,
+    "longitude": 77.543164
+  },
+  {
+    "junction_name": "BTP096 - Gali Anjaneya Temple",
+    "display_name": "BTP096 - Gali Anjaneya Temple",
+    "latitude": 12.951989,
+    "longitude": 77.540571
+  },
+  {
+    "junction_name": "BTP102 - BMTC Junction, KH Road",
+    "display_name": "BTP102 - BMTC Junction, KH Road",
+    "latitude": 12.955137,
+    "longitude": 77.592659
+  },
+  {
+    "junction_name": "BTP104 - Medical College Circle",
+    "display_name": "BTP104 - Medical College Circle",
+    "latitude": 12.958648,
+    "longitude": 77.577444
+  },
+  {
+    "junction_name": "BTP108 - Tagore Park Junction",
+    "display_name": "BTP108 - Tagore Park Junction (12.9427, 77.5701)",
+    "latitude": 12.942659,
+    "longitude": 77.570108
+  },
+  {
+    "junction_name": "BTP108 - Tagore Park Junction",
+    "display_name": "BTP108 - Tagore Park Junction (12.9452, 77.5716)",
+    "latitude": 12.945194,
+    "longitude": 77.571616
+  },
+  {
+    "junction_name": "BTP109 - Dewan Madhava Rao Junction",
+    "display_name": "BTP109 - Dewan Madhava Rao Junction",
+    "latitude": 12.939877,
+    "longitude": 77.57593
+  },
+  {
+    "junction_name": "BTP110 - Bharathi Nursing Home, Basavanagudi",
+    "display_name": "BTP110 - Bharathi Nursing Home, Basavanagudi",
+    "latitude": 12.937377,
+    "longitude": 77.572957
+  },
+  {
+    "junction_name": "BTP115 - Sahasra Hospital, Jayanagar",
+    "display_name": "BTP115 - Sahasra Hospital, Jayanagar",
+    "latitude": 12.916801,
+    "longitude": 77.573291
+  },
+  {
+    "junction_name": "BTP117 - 9th Cross, Kanakapura Road",
+    "display_name": "BTP117 - 9th Cross, Kanakapura Road",
+    "latitude": 12.911408,
+    "longitude": 77.574955
+  },
+  {
+    "junction_name": "BTP121 - KH Circle",
+    "display_name": "BTP121 - KH Circle",
+    "latitude": 12.948697,
+    "longitude": 77.589857
+  },
+  {
+    "junction_name": "BTP123 - 10th Cross, Wilson Garden",
+    "display_name": "BTP123 - 10th Cross, Wilson Garden (12.9478, 77.5973)",
+    "latitude": 12.947777,
+    "longitude": 77.597269
+  },
+  {
+    "junction_name": "BTP123 - 10th Cross, Wilson Garden",
+    "display_name": "BTP123 - 10th Cross, Wilson Garden (12.9424, 77.5942)",
+    "latitude": 12.942403,
+    "longitude": 77.594211
+  },
+  {
+    "junction_name": "BTP126 - Dairy Circle",
+    "display_name": "BTP126 - Dairy Circle (12.9376, 77.6014)",
+    "latitude": 12.937579,
+    "longitude": 77.601399
+  },
+  {
+    "junction_name": "BTP126 - Dairy Circle",
+    "display_name": "BTP126 - Dairy Circle (12.9362, 77.6003)",
+    "latitude": 12.936244,
+    "longitude": 77.600309
+  },
+  {
+    "junction_name": "BTP127 - Sagar Hospital, Jayanagar",
+    "display_name": "BTP127 - Sagar Hospital, Jayanagar",
+    "latitude": 12.925712,
+    "longitude": 77.600325
+  },
+  {
+    "junction_name": "BTP130 - GD Mara Junction",
+    "display_name": "BTP130 - GD Mara Junction (12.9082, 77.6008)",
+    "latitude": 12.90818,
+    "longitude": 77.600848
+  },
+  {
+    "junction_name": "BTP130 - GD Mara Junction",
+    "display_name": "BTP130 - GD Mara Junction (12.9061, 77.6022)",
+    "latitude": 12.906088,
+    "longitude": 77.602212
+  },
+  {
+    "junction_name": "BTP132 - Anepalya Junction",
+    "display_name": "BTP132 - Anepalya Junction",
+    "latitude": 12.950972,
+    "longitude": 77.606856
+  },
+  {
+    "junction_name": "BTP133 - Adugodi Junction",
+    "display_name": "BTP133 - Adugodi Junction",
+    "latitude": 12.940265,
+    "longitude": 77.609552
+  },
+  {
+    "junction_name": "BTP135 - UCO Bank Junction",
+    "display_name": "BTP135 - UCO Bank Junction",
+    "latitude": 12.934887,
+    "longitude": 77.615343
+  },
+  {
+    "junction_name": "BTP137 - Madiwala Traffic PS Junction",
+    "display_name": "BTP137 - Madiwala Traffic PS Junction (12.9209, 77.6217)",
+    "latitude": 12.920879,
+    "longitude": 77.621717
+  },
+  {
+    "junction_name": "BTP137 - Madiwala Traffic PS Junction",
+    "display_name": "BTP137 - Madiwala Traffic PS Junction (12.9254, 77.6188)",
+    "latitude": 12.925442,
+    "longitude": 77.618798
+  },
+  {
+    "junction_name": "BTP142 - Lower Agram Road Junction",
+    "display_name": "BTP142 - Lower Agram Road Junction",
+    "latitude": 12.963094,
+    "longitude": 77.615672
+  },
+  {
+    "junction_name": "BTP145 - Sri Hatti Maramma Circle, Domluru",
+    "display_name": "BTP145 - Sri Hatti Maramma Circle, Domluru",
+    "latitude": 12.961312,
+    "longitude": 77.63562
+  },
+  {
+    "junction_name": "BTP148 - 17th Main, Doopanahalli Bus Stop",
+    "display_name": "BTP148 - 17th Main, Doopanahalli Bus Stop",
+    "latitude": 12.964102,
+    "longitude": 77.64139
+  },
+  {
+    "junction_name": "BTP154 - Itmadu Junction",
+    "display_name": "BTP154 - Itmadu Junction",
+    "latitude": 12.931727,
+    "longitude": 77.544715
+  },
+  {
+    "junction_name": "BTP155 - Katriguppe Junction",
+    "display_name": "BTP155 - Katriguppe Junction",
+    "latitude": 12.926671,
+    "longitude": 77.550783
+  },
+  {
+    "junction_name": "BTP157 - Kadirenahalli Cross",
+    "display_name": "BTP157 - Kadirenahalli Cross",
+    "latitude": 12.913968,
+    "longitude": 77.567227
+  },
+  {
+    "junction_name": "BTP158 - Devegowda Petrol Bunk",
+    "display_name": "BTP158 - Devegowda Petrol Bunk (12.9235, 77.5617)",
+    "latitude": 12.923501,
+    "longitude": 77.561717
+  },
+  {
+    "junction_name": "BTP158 - Devegowda Petrol Bunk",
+    "display_name": "BTP158 - Devegowda Petrol Bunk (12.9211, 77.5577)",
+    "latitude": 12.921097,
+    "longitude": 77.557679
+  },
+  {
+    "junction_name": "BTP159 - JP Nagar Metro, ORR",
+    "display_name": "BTP159 - JP Nagar Metro, ORR",
+    "latitude": 12.905449,
+    "longitude": 77.573537
+  },
+  {
+    "junction_name": "BTP161 - 15th Cross, 35th Main, JP Nagar",
+    "display_name": "BTP161 - 15th Cross, 35th Main, JP Nagar",
+    "latitude": 12.90612,
+    "longitude": 77.578625
+  },
+  {
+    "junction_name": "BTP163 - 16th Main Road, BTM Layout",
+    "display_name": "BTP163 - 16th Main Road, BTM Layout (12.9191, 77.6100)",
+    "latitude": 12.919106,
+    "longitude": 77.609965
+  },
+  {
+    "junction_name": "BTP163 - 16th Main Road, BTM Layout",
+    "display_name": "BTP163 - 16th Main Road, BTM Layout (12.9137, 77.6083)",
+    "latitude": 12.913729,
+    "longitude": 77.608344
+  },
+  {
+    "junction_name": "BTP164 - 29th Main Road, BTM Layout",
+    "display_name": "BTP164 - 29th Main Road, BTM Layout",
+    "latitude": 12.917251,
+    "longitude": 77.613775
+  },
+  {
+    "junction_name": "BTP172 - Nanjappa Circle",
+    "display_name": "BTP172 - Nanjappa Circle (12.9624, 77.5987)",
+    "latitude": 12.962352,
+    "longitude": 77.59871
+  },
+  {
+    "junction_name": "BTP172 - Nanjappa Circle",
+    "display_name": "BTP172 - Nanjappa Circle (12.9571, 77.6033)",
+    "latitude": 12.957094,
+    "longitude": 77.603258
+  },
+  {
+    "junction_name": "BTP176 - Rajalakshmi Kalyana Mantapa, JP Nagar",
+    "display_name": "BTP176 - Rajalakshmi Kalyana Mantapa, JP Nagar",
+    "latitude": 12.918712,
+    "longitude": 77.580578
+  },
+  {
+    "junction_name": "BTP177 - Aurobindo Circle, ORR",
+    "display_name": "BTP177 - Aurobindo Circle, ORR",
+    "latitude": 12.916774,
+    "longitude": 77.588193
+  },
+  {
+    "junction_name": "BTP184 - Lalbagh West Gate",
+    "display_name": "BTP184 - Lalbagh West Gate",
+    "latitude": 12.94815,
+    "longitude": 77.579774
+  },
+  {
+    "junction_name": "BTP186 - 9th Cross, 4th Main, Jayanagar",
+    "display_name": "BTP186 - 9th Cross, 4th Main, Jayanagar",
+    "latitude": 12.938798,
+    "longitude": 77.584535
+  },
+  {
+    "junction_name": "BTP189 - New Diagonal Road, Jayanagar",
+    "display_name": "BTP189 - New Diagonal Road, Jayanagar",
+    "latitude": 12.927595,
+    "longitude": 77.580181
+  },
+  {
+    "junction_name": "BTP192 - Urvashi Theater",
+    "display_name": "BTP192 - Urvashi Theater",
+    "latitude": 12.956672,
+    "longitude": 77.585285
+  },
+  {
+    "junction_name": "BTP197 - 9th Cross, 24th Main, JP Nagar",
+    "display_name": "BTP197 - 9th Cross, 24th Main, JP Nagar (12.9119, 77.5861)",
+    "latitude": 12.911853,
+    "longitude": 77.586076
+  },
+  {
+    "junction_name": "BTP197 - 9th Cross, 24th Main, JP Nagar",
+    "display_name": "BTP197 - 9th Cross, 24th Main, JP Nagar (12.9103, 77.5905)",
+    "latitude": 12.910323,
+    "longitude": 77.590468
+  },
+  {
+    "junction_name": "BTP202 - East End Main Road, Jayanagar",
+    "display_name": "BTP202 - East End Main Road, Jayanagar",
+    "latitude": 12.917645,
+    "longitude": 77.597249
+  },
+  {
+    "junction_name": "BTP206 - Shankara Mutt Circle, Vijayanagar",
+    "display_name": "BTP206 - Shankara Mutt Circle, Vijayanagar",
+    "latitude": 12.998462,
+    "longitude": 77.543447
+  },
+  {
+    "junction_name": "BTP207 - 8th Main Road Basaveshwara Nagar",
+    "display_name": "BTP207 - 8th Main Road Basaveshwara Nagar",
+    "latitude": 12.99331,
+    "longitude": 77.539051
+  },
+  {
+    "junction_name": "BTP208 - Havanur Circle",
+    "display_name": "BTP208 - Havanur Circle",
+    "latitude": 12.987955,
+    "longitude": 77.537531
+  },
+  {
+    "junction_name": "BTP211 - Central Street Junction",
+    "display_name": "BTP211 - Central Street Junction",
+    "latitude": 12.984321,
+    "longitude": 77.603664
+  },
+  {
+    "junction_name": "BTP213 - Royan Circle",
+    "display_name": "BTP213 - Royan Circle",
+    "latitude": 12.958507,
+    "longitude": 77.569086
+  },
+  {
+    "junction_name": "BTP214 - 5th Main Chamrajpet  Junction",
+    "display_name": "BTP214 - 5th Main Chamrajpet  Junction",
+    "latitude": 12.978534,
+    "longitude": 77.532024
+  },
+  {
+    "junction_name": "BTP215 - Vanivillas Junction",
+    "display_name": "BTP215 - Vanivillas Junction",
+    "latitude": 12.946691,
+    "longitude": 77.567349
+  },
+  {
+    "junction_name": "BTP218 - Syndicate Bank Junction",
+    "display_name": "BTP218 - Syndicate Bank Junction",
+    "latitude": 12.931512,
+    "longitude": 77.582686
+  },
+  {
+    "junction_name": "BTP219 - Canara Bank Junction",
+    "display_name": "BTP219 - Canara Bank Junction",
+    "latitude": 12.931723,
+    "longitude": 77.586564
+  },
+  {
+    "junction_name": "BTP221 - 15th Cross, 24th Main, JP Nagar",
+    "display_name": "BTP221 - 15th Cross, 24th Main, JP Nagar",
+    "latitude": 12.906082,
+    "longitude": 77.589364
+  },
+  {
+    "junction_name": "BTP226 - 33rd Cross, 11th Main, Jayanagar",
+    "display_name": "BTP226 - 33rd Cross, 11th Main, Jayanagar",
+    "latitude": 12.926836,
+    "longitude": 77.584703
+  }
+]

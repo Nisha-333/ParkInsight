@@ -1,0 +1,777 @@
+h3_cell,police_station,junction_name,total_violations,action_rate,hotspot_tier,under_enforced
+8860145b55fffff,Upparpet,BTP040 - Elite Junction,20216,0.958567078057381,CRITICAL,False
+8861892e9bfffff,Shivajinagar,BTP051 - Safina Plaza Junction,14993,0.9608446519524618,CRITICAL,False
+8860145b5dfffff,Upparpet,BTP044 - Sagar Theatre Junction,11761,0.9638974073041539,CRITICAL,False
+8860145b59fffff,City Market,BTP082 - KR Market Junction,9906,0.9375128047531244,CRITICAL,False
+8860145b43fffff,Upparpet,BTP044 - Sagar Theatre Junction,9538,0.9524969549330086,CRITICAL,False
+8861892093fffff,HAL Old Airport,No Junction,8989,0.9374737725556022,CRITICAL,False
+88618925b7fffff,Halasuru Gate,"BTP080 - NR Road, SP Road Junction",7096,0.9463667820069204,CRITICAL,False
+8860145b3bfffff,Malleshwaram,BTP027 - Modi Bridge Junction,6711,0.962180746561886,CRITICAL,False
+8861892e93fffff,Shivajinagar,BTP211 - Central Street Junction,5224,0.9618583309435045,CRITICAL,False
+8860145b31fffff,Malleshwaram,No Junction,5065,0.9486166007905138,HIGH,False
+8861892e91fffff,Shivajinagar,No Junction,4771,0.9408759124087591,HIGH,False
+8860145a27fffff,Vijayanagara,BTP020 - Hosahalli Metro Station,4669,0.9633139712626109,CRITICAL,False
+8860169019fffff,Chikkajala,No Junction,4142,0.9530685920577617,HIGH,False
+8860145b07fffff,Malleshwaram,No Junction,3824,0.9559306141584623,MEDIUM,False
+886016964bfffff,Kodigehalli,No Junction,3741,0.966530612244898,MEDIUM,False
+8861892e2bfffff,K.R. Pura,No Junction,3543,0.9369747899159664,HIGH,False
+8860145b37fffff,Malleshwaram,No Junction,3541,0.9452577975811585,MEDIUM,False
+8860145b6bfffff,High ground,BTP032 - Windsor Circle,3124,0.9588313413014609,CRITICAL,False
+8861892c9dfffff,Hebbala,No Junction,3114,0.9505882352941176,MEDIUM,False
+8860145b17fffff,Vijayanagara,BTP027 - Modi Bridge Junction,2892,0.9768058316766071,CRITICAL,False
+8860145a25fffff,Magadi Road,"BTP070 - Cholurpalya Junction, Magadi Road",2816,0.9456131349409954,CRITICAL,False
+8860145b4dfffff,Shivajinagar,BTP042 - Minsk Square Junction (CTO),2770,0.9329929802169751,CRITICAL,True
+8860145b11fffff,Rajajinagar,BTP061 - Bhashyam Circle,2739,0.9825386165211552,CRITICAL,False
+8860145b2bfffff,Malleshwaram,No Junction,2704,0.9680054458815521,MEDIUM,False
+88618925b3fffff,City Market,BTP104 - Medical College Circle,2640,0.9744597249508841,CRITICAL,False
+8861892097fffff,HAL Old Airport,No Junction,2527,0.9439759036144578,MEDIUM,False
+88618920a3fffff,HAL Old Airport,No Junction,2465,0.9113924050632911,MEDIUM,True
+8860145a23fffff,Vijayanagara,"BTP016 - 5th Main Road, RPC Layout",2431,0.9956733369388859,HIGH,False
+8861892e17fffff,Mahadevapura,No Junction,2251,0.9771328056288479,MEDIUM,False
+8860145b33fffff,Malleshwaram,BTP023 - Mahalaxmi Layout Entrance,2188,0.9743101807802094,HIGH,False
+8860145b01fffff,Malleshwaram,No Junction,2160,0.9557761732851986,MEDIUM,False
+8861892639fffff,Electronic City,No Junction,2079,0.9553990610328639,MEDIUM,False
+8861892541fffff,Bellandur,No Junction,2071,0.9173764906303237,MEDIUM,True
+8861892e39fffff,Mahadevapura,No Junction,2053,0.9247675401521556,MEDIUM,True
+8861892421fffff,HSR Layout,No Junction,2050,0.9403453689167975,MEDIUM,False
+8860145849fffff,Vijayanagara,"BTP022 - Marenahalli Junction, Vijayanagar",1993,0.9716139497161395,CRITICAL,False
+8860145b19fffff,Magadi Road,No Junction,1951,0.9620774938169827,HIGH,False
+8860145b1bfffff,Vijayanagara,BTP069 - MC Circle,1777,0.9609053497942387,CRITICAL,False
+8860145a69fffff,Basavanagudi,BTP108 - Tagore Park Junction,1769,0.9406867845993756,HIGH,False
+8861892ecbfffff,Jeevanbheemanagar,No Junction,1620,0.9760166840458812,MEDIUM,False
+8861892ed3fffff,Halasur,No Junction,1600,0.965553235908142,MEDIUM,False
+88618920b1fffff,HAL Old Airport,No Junction,1576,0.943778801843318,MEDIUM,False
+88618920bbfffff,HAL Old Airport,No Junction,1537,0.9821200510855683,MEDIUM,False
+88618925a3fffff,Ashok Nagar,BTP172 - Nanjappa Circle,1508,0.9925531914893617,CRITICAL,False
+88618925c7fffff,Adugodi,BTP135 - UCO Bank Junction,1483,0.9164588528678305,HIGH,True
+8860145b09fffff,High ground,BTP054 - Shivananda Circle,1420,0.9613319011815252,HIGH,False
+8861892e95fffff,Pulikeshinagar(F.Town),No Junction,1358,0.9375,MEDIUM,False
+88618925a5fffff,Halasur,No Junction,1345,0.9757281553398058,MEDIUM,False
+8860145b15fffff,Rajajinagar,"BTP011 - RR Kalyana Mantapa, Dr. Rajkumar Road",1343,0.9735632183908046,CRITICAL,False
+886014586dfffff,Vijayanagara,"BTP206 - Shankara Mutt Circle, Vijayanagar",1306,0.973109243697479,CRITICAL,False
+8861892e3dfffff,K.R. Pura,No Junction,1285,0.9489795918367347,MEDIUM,False
+8861892cb7fffff,Kodigehalli,No Junction,1282,0.9534883720930233,MEDIUM,False
+8860145b49fffff,Cubbon Park,BTP063 - Siddalingaiah Circle,1271,0.9818435754189944,HIGH,False
+8860145a35fffff,Byatarayanapura,No Junction,1267,0.9707317073170731,HIGH,False
+8860145a2bfffff,Byatarayanapura,"BTP095 - Satellite Bus Stand, Mysore Road",1257,0.9864253393665159,CRITICAL,False
+8861892cb5fffff,Kodigehalli,No Junction,1257,0.932806324110672,MEDIUM,True
+8861892527fffff,Jeevanbheemanagar,No Junction,1198,0.9555555555555556,MEDIUM,False
+8861892599fffff,Jayanagara,"BTP226 - 33rd Cross, 11th Main, Jayanagar",1183,0.951048951048951,HIGH,False
+88618925b1fffff,Wilson Garden,BTP192 - Urvashi Theater,1163,0.9417910447761194,HIGH,False
+8860145a6dfffff,Basavanagudi,BTP108 - Tagore Park Junction,1159,0.9507154213036566,HIGH,False
+886189242bfffff,HSR Layout,No Junction,1131,0.995702005730659,MEDIUM,False
+8861892e99fffff,Shivajinagar,No Junction,1092,0.952755905511811,LOW,False
+8861892545fffff,HAL Old Airport,No Junction,1070,0.9670846394984326,MEDIUM,False
+8861892ebbfffff,Pulikeshinagar(F.Town),No Junction,1069,0.907103825136612,MEDIUM,True
+88618925a7fffff,Ashok Nagar,No Junction,1065,0.9708994708994709,MEDIUM,False
+8861892c97fffff,Kodigehalli,No Junction,959,0.9778481012658228,MEDIUM,False
+8860145b41fffff,Cubbon Park,BTP041 - Gopal Gowda Circle,917,0.9921259842519685,HIGH,False
+8861892595fffff,Wilson Garden,"BTP186 - 9th Cross, 4th Main, Jayanagar",915,0.9917808219178083,HIGH,False
+8860145957fffff,Yeshwanthpura,No Junction,891,0.95578231292517,MEDIUM,False
+8861892cb1fffff,Kodigehalli,No Junction,881,0.9504950495049505,MEDIUM,False
+886189240dfffff,Hulimavu,No Junction,880,0.9742574257425742,MEDIUM,False
+88618925d9fffff,Mico Layout,BTP130 - GD Mara Junction,859,0.9543010752688172,HIGH,False
+8860169669fffff,Yelahanka,No Junction,845,0.9826254826254827,MEDIUM,False
+88601690c3fffff,Chikkajala,No Junction,826,0.9433333333333334,MEDIUM,False
+8861892e49fffff,HAL Old Airport,No Junction,826,0.9322799097065463,MEDIUM,True
+8861892537fffff,Jeevanbheemanagar,"BTP148 - 17th Main, Doopanahalli Bus Stop",822,0.8971631205673759,HIGH,True
+8860145845fffff,Vijayanagara,BTP208 - Havanur Circle,821,0.9971751412429378,HIGH,False
+8861892591fffff,Jayanagara,"BTP188 - 27th Cross, 4th Main, Jayanagar",815,0.927360774818402,HIGH,True
+8861892589fffff,Mico Layout,No Junction,807,0.9576923076923077,HIGH,False
+8860145b3dfffff,Malleshwaram,No Junction,806,0.971830985915493,MEDIUM,False
+8860145a2dfffff,Magadi Road,No Junction,804,0.9243027888446215,MEDIUM,True
+8860145b4bfffff,Halasuru Gate,BTP076 - Hudson Circle,791,0.9911699779249448,HIGH,False
+8861892e0dfffff,Mahadevapura,No Junction,789,0.7720090293453724,MEDIUM,True
+8861892531fffff,Jeevanbheemanagar,No Junction,765,0.9161147902869757,MEDIUM,True
+8861892513fffff,Adugodi,No Junction,761,0.99581589958159,MEDIUM,False
+8860145b69fffff,Shivajinagar,No Junction,752,0.9395161290322581,MEDIUM,False
+8861892e29fffff,K.R. Pura,No Junction,744,0.9245742092457421,MEDIUM,True
+8861892e97fffff,Pulikeshinagar(F.Town),No Junction,731,0.9072727272727272,MEDIUM,True
+8861892e01fffff,Mahadevapura,No Junction,722,0.8626198083067093,MEDIUM,True
+8861892535fffff,Jeevanbheemanagar,No Junction,698,0.9747126436781609,LOW,False
+88618925c1fffff,Madiwala,BTP137 - Madiwala Traffic PS Junction,697,1.0,HIGH,False
+8861892cb9fffff,Kodigehalli,No Junction,663,0.9957446808510638,MEDIUM,False
+8860145b45fffff,High ground,No Junction,647,0.9698275862068966,HIGH,False
+8860145b03fffff,Sheshadripuram,No Junction,644,0.9650537634408602,MEDIUM,False
+8860145b53fffff,Magadi Road,BTP074 - Leprosy Hospital Junction,632,0.956989247311828,HIGH,False
+8860145a07fffff,Byatarayanapura,BTP096 - Gali Anjaneya Temple,630,0.9851851851851852,HIGH,False
+886014594dfffff,Sadashivanagar,No Junction,623,0.9967105263157895,LOW,False
+8861892423fffff,HSR Layout,No Junction,617,0.9780564263322884,MEDIUM,False
+8861892c99fffff,Hebbala,No Junction,613,0.9230769230769231,LOW,True
+8861892ec3fffff,Jeevanbheemanagar,No Junction,603,0.9559228650137741,MEDIUM,False
+886189259bfffff,Jayanagara,"BTP189 - New Diagonal Road, Jayanagar",589,0.8894348894348895,HIGH,True
+8860169053fffff,Chikkajala,No Junction,588,0.9099099099099099,MEDIUM,True
+8861892405fffff,Hulimavu,No Junction,581,0.9766763848396501,MEDIUM,False
+88618924cdfffff,Hulimavu,No Junction,575,0.9226804123711341,MEDIUM,True
+88618924a7fffff,Banashankari,"BTP115 - Sahasra Hospital, Jayanagar",573,0.9974160206718347,HIGH,False
+8860145a33fffff,Byatarayanapura,No Junction,545,0.9910179640718563,MEDIUM,False
+886189219dfffff,Whitefield,No Junction,543,0.9139784946236559,MEDIUM,True
+8860145b1dfffff,Rajajinagar,BTP010 - Rajajinagar Entrance,539,0.9847560975609756,HIGH,False
+8861892cd3fffff,R.T. Nagar,No Junction,536,1.0,MEDIUM,False
+886014582dfffff,Rajajinagar,No Junction,528,1.0,MEDIUM,False
+8860145b25fffff,R.T. Nagar,No Junction,517,0.9367588932806324,LOW,False
+8860145913fffff,Peenya,No Junction,514,0.8782608695652174,LOW,True
+8861892cc5fffff,K.G. Halli,No Junction,501,0.9289473684210526,MEDIUM,True
+8861892597fffff,Basavanagudi,BTP216 - Yediyur Junction,497,0.9653679653679653,HIGH,False
+8860145859fffff,Jnanabharathi,No Junction,478,0.9497354497354498,LOW,False
+8861892ed7fffff,Halasur,No Junction,475,0.934984520123839,MEDIUM,True
+8861892e55fffff,Mahadevapura,No Junction,469,0.9616724738675958,MEDIUM,False
+8861892447fffff,Hulimavu,No Junction,460,0.9541666666666667,MEDIUM,False
+886189244dfffff,Electronic City,No Junction,458,0.9210526315789473,MEDIUM,True
+88618924a5fffff,Jayanagara,"BTP176 - Rajalakshmi Kalyana Mantapa, JP Nagar",455,0.9553903345724907,HIGH,False
+886014584dfffff,Magadi Road,BTP067 - Jai Muni Rao Circle,434,0.959731543624161,HIGH,False
+88618925b5fffff,Halasuru Gate,BTP180 - Swagath Poornima Theatre,425,0.9712918660287081,HIGH,False
+8861892c9bfffff,Kodigehalli,No Junction,424,0.9807692307692307,LOW,False
+8860145a13fffff,Byatarayanapura,No Junction,422,1.0,LOW,False
+88618920bdfffff,HAL Old Airport,No Junction,420,0.8987854251012146,LOW,True
+8861892ee9fffff,Banaswadi,No Junction,419,0.947136563876652,MEDIUM,False
+8861892587fffff,Wilson Garden,"BTP123 - 10th Cross, Wilson Garden",413,0.968,HIGH,False
+8860145b0dfffff,Sheshadripuram,BTP032 - Windsor Circle,409,0.9726962457337884,HIGH,False
+8860145829fffff,Rajajinagar,No Junction,403,0.9752475247524752,MEDIUM,False
+8861892087fffff,Whitefield,No Junction,389,0.9532710280373832,MEDIUM,False
+8861892735fffff,Bellandur,No Junction,389,0.981203007518797,LOW,False
+8861892483fffff,Thalagattapura,No Junction,387,1.0,LOW,False
+8861892739fffff,Bellandur,No Junction,386,0.9436619718309859,MEDIUM,False
+8860145b57fffff,Magadi Road,BTP074 - Leprosy Hospital Junction,386,0.9513274336283186,HIGH,False
+886189266bfffff,Electronic City,No Junction,385,0.9872881355932204,MEDIUM,False
+8861892e3bfffff,Banaswadi,No Junction,383,0.9841269841269841,MEDIUM,False
+8861892eddfffff,Jeevanbheemanagar,No Junction,377,0.9726027397260274,LOW,False
+8860169645fffff,Yelahanka,No Junction,377,0.9845360824742269,MEDIUM,False
+88618924adfffff,J.P. Nagar,"BTP197 - 9th Cross, 24th Main, JP Nagar",376,0.9885496183206107,HIGH,False
+8860145b51fffff,Chamarajpet,BTP048 - Shanthala Junction,370,0.9339622641509434,HIGH,True
+8860145955fffff,Yeshwanthpura,No Junction,369,0.9801980198019802,MEDIUM,False
+8860145953fffff,Rajajinagar,No Junction,369,0.9715639810426541,MEDIUM,False
+886189255dfffff,Bellandur,No Junction,368,0.9637096774193549,LOW,False
+88618924a1fffff,J.P. Nagar,"BTP117 - 9th Cross, Kanakapura Road",367,0.9924242424242424,CRITICAL,False
+8860145a43fffff,Banashankari,BTP155 - Katriguppe Junction,357,0.9691358024691358,HIGH,False
+8861892ed5fffff,Halasur,No Junction,353,0.8864628820960698,LOW,True
+8861892441fffff,Hulimavu,No Junction,353,0.9375,MEDIUM,False
+8861892437fffff,Mico Layout,"BTP163 - 16th Main Road, BTM Layout",349,0.9494949494949495,HIGH,False
+8860145a65fffff,V.V.Puram (C.Pet),BTP214 - 5th Main Chamrajpet  Junction,349,0.9935897435897436,HIGH,False
+8861892583fffff,Wilson Garden,"BTP123 - 10th Cross, Wilson Garden",346,0.9809523809523809,HIGH,False
+8861892731fffff,Bellandur,No Junction,344,0.919047619047619,MEDIUM,True
+88618925c3fffff,Mico Layout,No Junction,342,1.0,MEDIUM,False
+886189209bfffff,Bellandur,No Junction,337,0.9858156028368794,MEDIUM,False
+88601459ebfffff,Peenya,No Junction,327,0.991701244813278,MEDIUM,False
+8861892cbdfffff,Kodigehalli,No Junction,322,0.9880952380952381,MEDIUM,False
+88618925b9fffff,Wilson Garden,No Junction,321,1.0,HIGH,False
+886014581dfffff,Kamakshipalya,No Junction,319,1.0,LOW,False
+8861892095fffff,HAL Old Airport,No Junction,317,0.9264705882352942,LOW,True
+8860145b29fffff,Sadashivanagar,No Junction,316,0.9923664122137404,MEDIUM,False
+8861892da3fffff,Chikkajala,No Junction,315,1.0,MEDIUM,False
+8860145a15fffff,Byatarayanapura,No Junction,314,0.9437229437229437,MEDIUM,False
+88618925bdfffff,Wilson Garden,"BTP102 - BMTC Junction, KH Road",313,0.9951456310679612,HIGH,False
+88618920b7fffff,HAL Old Airport,No Junction,306,0.9795918367346939,LOW,False
+8860145b27fffff,Sadashivanagar,No Junction,304,0.9934640522875817,LOW,False
+8860145a21fffff,Magadi Road,No Junction,304,0.9141104294478528,MEDIUM,True
+8860145869fffff,Vijayanagara,BTP207 - 8th Main Road Basaveshwara Nagar,303,1.0,HIGH,False
+886189254bfffff,Bellandur,No Junction,302,0.9683544303797469,LOW,False
+8860145905fffff,Jalahalli,No Junction,298,0.9536423841059603,LOW,False
+8861892529fffff,HAL Old Airport,No Junction,298,1.0,MEDIUM,False
+88618925d1fffff,Jayanagara,"BTP202 - East End Main Road, Jayanagar",293,0.7403846153846154,HIGH,True
+88618925bbfffff,Basavanagudi,BTP184 - Lalbagh West Gate,283,0.9875,HIGH,False
+8860145865fffff,Rajajinagar,No Junction,272,0.9733333333333334,LOW,False
+8861892ed1fffff,Halasur,No Junction,270,0.95625,LOW,False
+8861892ea5fffff,Banaswadi,No Junction,269,0.9760479041916168,MEDIUM,False
+8860145b61fffff,R.T. Nagar,No Junction,261,0.9786324786324786,MEDIUM,False
+8861892553fffff,HSR Layout,No Junction,252,0.976878612716763,LOW,False
+886014593bfffff,Jalahalli,No Junction,250,0.7772511848341233,MEDIUM,True
+88618925ebfffff,Adugodi,No Junction,247,0.990909090909091,MEDIUM,False
+8860145809fffff,Kamakshipalya,No Junction,246,1.0,MEDIUM,False
+88618925c9fffff,Madiwala,BTP137 - Madiwala Traffic PS Junction,245,1.0,HIGH,False
+8860145a0bfffff,Banashankari,No Junction,245,1.0,MEDIUM,False
+8860145851fffff,Jnanabharathi,No Junction,240,0.94,LOW,False
+886014594bfffff,Yeshwanthpura,No Junction,240,0.9739130434782609,LOW,False
+8860145941fffff,Yeshwanthpura,No Junction,238,0.991869918699187,LOW,False
+886189242dfffff,HSR Layout,No Junction,238,0.9085365853658537,LOW,True
+8861892091fffff,HAL Old Airport,No Junction,228,0.896551724137931,LOW,True
+8861892f69fffff,K.R. Pura,No Junction,228,0.9459459459459459,LOW,False
+8861892e9dfffff,Pulikeshinagar(F.Town),No Junction,224,0.9230769230769231,LOW,True
+8861892e87fffff,Pulikeshinagar(F.Town),No Junction,221,0.8252427184466019,LOW,True
+886189251bfffff,Adugodi,No Junction,220,1.0,LOW,False
+886016966bfffff,Yelahanka,No Junction,215,0.9290322580645162,LOW,True
+8860145863fffff,Rajajinagar,No Junction,214,0.9145299145299145,LOW,True
+8861892ec9fffff,Jeevanbheemanagar,No Junction,212,0.9861111111111112,LOW,False
+8861892581fffff,Mico Layout,BTP126 - Dairy Circle,211,0.9426229508196722,HIGH,False
+886014598dfffff,Chikkabanavara,No Junction,206,0.9624060150375939,MEDIUM,False
+8860145b0bfffff,Sheshadripuram,No Junction,206,0.9887640449438202,LOW,False
+8860169057fffff,Chikkajala,No Junction,201,0.9921259842519685,LOW,False
+886189259dfffff,Jayanagara,BTP219 - Canara Bank Junction,199,0.9640718562874252,HIGH,False
+8860145b35fffff,Yeshwanthpura,No Junction,193,0.965034965034965,MEDIUM,False
+88618924edfffff,J.P. Nagar,No Junction,190,0.9891304347826086,LOW,False
+8861892eb9fffff,Pulikeshinagar(F.Town),No Junction,186,0.9711538461538461,LOW,False
+88618924e7fffff,J.P. Nagar,"BTP221 - 15th Cross, 24th Main, JP Nagar",184,0.9076923076923077,HIGH,False
+8861892eebfffff,Banaswadi,No Junction,183,0.8823529411764706,MEDIUM,False
+8860145901fffff,Jalahalli,No Junction,183,1.0,LOW,False
+8860145a3bfffff,Byatarayanapura,No Junction,181,0.9855072463768116,MEDIUM,False
+88601459e1fffff,Chikkabanavara,No Junction,181,1.0,LOW,False
+88618925e9fffff,Adugodi,No Junction,181,0.9871794871794872,MEDIUM,False
+8860145947fffff,Yeshwanthpura,No Junction,179,0.967741935483871,LOW,False
+8861892543fffff,Bellandur,No Junction,178,0.9724770642201835,LOW,False
+8861892db7fffff,Yelahanka,No Junction,178,1.0,LOW,False
+8861892e41fffff,Mahadevapura,No Junction,178,0.923728813559322,LOW,False
+8861892767fffff,Bellandur,No Junction,175,1.0,LOW,False
+886189276dfffff,Whitefield,No Junction,174,0.925531914893617,LOW,False
+886189254dfffff,HAL Old Airport,No Junction,172,0.9878048780487805,LOW,False
+8860145b39fffff,Malleshwaram,No Junction,167,0.8571428571428571,MEDIUM,False
+8861892523fffff,Jeevanbheemanagar,No Junction,167,1.0,LOW,False
+88618924b7fffff,K.S. Layout,No Junction,166,0.8809523809523809,MEDIUM,False
+8860145b5bfffff,Chamarajpet,"BTP089 - Police Quarters, Sultan Road",166,0.9605263157894737,HIGH,False
+88618920e9fffff,Whitefield,No Junction,165,0.9152542372881356,LOW,False
+8861892585fffff,Ashok Nagar,BTP132 - Anepalya Junction,163,0.7570093457943925,HIGH,False
+8861892c93fffff,Kodigehalli,No Junction,159,1.0,LOW,False
+8860145969fffff,Kodigehalli,No Junction,158,0.9629629629629629,LOW,False
+8861892e07fffff,Mahadevapura,No Junction,152,0.9310344827586207,MEDIUM,False
+886189262bfffff,Electronic City,No Junction,151,1.0,MEDIUM,False
+8860145a39fffff,Byatarayanapura,No Junction,150,0.9565217391304348,MEDIUM,False
+8860145b47fffff,High ground,BTP035 - Basaweshwara Circle (LH) Junction,149,1.0,HIGH,False
+8861892e6dfffff,K.R. Pura,No Junction,149,0.865979381443299,LOW,False
+8861892ce9fffff,Hennuru,No Junction,148,1.0,MEDIUM,False
+8861892e4bfffff,HAL Old Airport,No Junction,147,0.6417910447761194,LOW,False
+8861892557fffff,HSR Layout,No Junction,142,0.9743589743589743,LOW,False
+8861892425fffff,HSR Layout,No Junction,142,0.9888888888888889,LOW,False
+88618920adfffff,Whitefield,No Junction,142,0.9047619047619048,LOW,False
+8860145b67fffff,R.T. Nagar,No Junction,141,0.967032967032967,LOW,False
+8860169601fffff,Yelahanka,No Junction,140,0.9453125,LOW,False
+8860169747fffff,Chikkajala,No Junction,139,1.0,MEDIUM,False
+88618925c5fffff,Adugodi,No Junction,139,0.98,LOW,False
+8861892723fffff,Bellandur,No Junction,138,0.9619047619047619,LOW,False
+8861892cb3fffff,Kodigehalli,No Junction,138,0.8888888888888888,LOW,False
+8861892ec1fffff,Banaswadi,No Junction,136,0.8939393939393939,LOW,False
+88601690c7fffff,Chikkajala,No Junction,136,0.97,MEDIUM,False
+8860145841fffff,Vijayanagara,BTP214 - 5th Main Chamrajpet  Junction,136,0.9523809523809523,HIGH,False
+88618924b3fffff,K.S. Layout,No Junction,136,0.9913793103448276,LOW,False
+8860145b05fffff,Sheshadripuram,No Junction,134,1.0,MEDIUM,False
+8861892729fffff,Bellandur,No Junction,134,0.9310344827586207,LOW,False
+8861892429fffff,HSR Layout,No Junction,133,1.0,MEDIUM,False
+8860145ad9fffff,Kengeri,No Junction,132,1.0,LOW,False
+8861892e69fffff,Mahadevapura,No Junction,131,0.8666666666666667,LOW,False
+8861892ebdfffff,Pulikeshinagar(F.Town),No Junction,129,1.0,MEDIUM,False
+8861892191fffff,Whitefield,No Junction,127,0.873015873015873,LOW,False
+886189359bfffff,Electronic City,No Junction,126,0.8899082568807339,MEDIUM,False
+8861892cdbfffff,R.T. Nagar,No Junction,125,1.0,LOW,False
+88618925ddfffff,Mico Layout,No Junction,123,0.9574468085106383,MEDIUM,False
+88601459e9fffff,Chikkabanavara,No Junction,121,0.9438202247191011,LOW,False
+886189258dfffff,Adugodi,BTP133 - Adugodi Junction,121,0.9714285714285714,HIGH,False
+88618921a9fffff,Mahadevapura,No Junction,121,0.9452054794520548,LOW,False
+8861892dd9fffff,Hennuru,No Junction,118,0.963855421686747,LOW,False
+8861892721fffff,Bellandur,No Junction,116,0.8333333333333334,LOW,False
+88618920abfffff,Whitefield,No Junction,113,0.9672131147540983,LOW,False
+886189253dfffff,Jeevanbheemanagar,No Junction,113,0.9310344827586207,LOW,False
+886189218bfffff,Whitefield,No Junction,113,1.0,MEDIUM,False
+8861892dd5fffff,Hennuru,No Junction,112,1.0,LOW,False
+886014592bfffff,Jalahalli,No Junction,112,0.9811320754716981,LOW,False
+886014595bfffff,Rajajinagar,No Junction,111,1.0,LOW,False
+88618920a9fffff,Whitefield,No Junction,108,0.8409090909090909,MEDIUM,False
+8861892c83fffff,Hebbala,No Junction,105,0.9841269841269841,MEDIUM,False
+8861892f47fffff,K.R. Pura,No Junction,104,1.0,LOW,False
+886016911dfffff,Devanahalli Airport,No Junction,104,1.0,LOW,False
+886189264dfffff,Electronic City,No Junction,104,0.873015873015873,LOW,False
+886189255bfffff,HSR Layout,No Junction,104,1.0,LOW,False
+8860145959fffff,Rajajinagar,No Junction,103,0.9054054054054054,LOW,False
+886014514dfffff,Thalagattapura,No Junction,103,0.925,LOW,False
+886016901dfffff,Devanahalli Airport,No Junction,102,0.9433962264150944,MEDIUM,False
+8860145a11fffff,Byatarayanapura,No Junction,102,1.0,LOW,False
+8861892abbfffff,K.R. Pura,No Junction,101,1.0,LOW,False
+88618924c5fffff,J.P. Nagar,No Junction,101,0.9696969696969697,LOW,False
+8860145847fffff,Kamakshipalya,No Junction,97,0.9649122807017544,LOW,False
+8861892e43fffff,Mahadevapura,No Junction,97,0.9565217391304348,LOW,False
+88618925a1fffff,Ashok Nagar,No Junction,97,0.927710843373494,MEDIUM,False
+8861892ed9fffff,Halasur,"BTP145 - Sri Hatti Maramma Circle, Domluru",97,1.0,HIGH,False
+8861892185fffff,Mahadevapura,No Junction,97,0.9607843137254902,LOW,False
+8860145a29fffff,Chamarajpet,"BTP093 - Toll Gate, Mysore Road",97,1.0,CRITICAL,False
+8861892cc1fffff,K.G. Halli,No Junction,96,0.75,LOW,False
+8860145951fffff,Yeshwanthpura,No Junction,95,0.9736842105263158,LOW,False
+8861892621fffff,Electronic City,No Junction,95,0.8,MEDIUM,False
+886014595dfffff,Yeshwanthpura,No Junction,93,0.9818181818181818,MEDIUM,False
+88618925d7fffff,Jayanagara,"BTP127 - Sagar Hospital, Jayanagar",92,1.0,HIGH,False
+886014580bfffff,Kamakshipalya,No Junction,92,0.9838709677419355,LOW,False
+8861892e45fffff,Mahadevapura,No Junction,91,0.5333333333333333,LOW,False
+8861892487fffff,K.S. Layout,No Junction,90,1.0,LOW,False
+88618924abfffff,J.P. Nagar,"BTP159 - JP Nagar Metro, ORR",90,0.9827586206896551,HIGH,False
+8860145a6bfffff,Basavanagudi,No Junction,90,1.0,LOW,False
+8860145935fffff,Jalahalli,No Junction,90,1.0,MEDIUM,False
+886189246dfffff,HSR Layout,No Junction,88,0.9814814814814815,LOW,False
+88618920b3fffff,HAL Old Airport,No Junction,87,0.9482758620689655,LOW,False
+8861892449fffff,Electronic City,No Junction,87,1.0,MEDIUM,False
+88601458c5fffff,Kamakshipalya,No Junction,85,0.9807692307692307,LOW,False
+88618924e5fffff,J.P. Nagar,No Junction,85,0.8888888888888888,MEDIUM,False
+8861892db5fffff,Yelahanka,No Junction,85,0.9880952380952381,LOW,False
+8861892663fffff,Electronic City,No Junction,84,0.9782608695652174,LOW,False
+88618920e5fffff,Whitefield,No Junction,84,0.9354838709677419,MEDIUM,False
+8860145a31fffff,Byatarayanapura,No Junction,84,1.0,MEDIUM,False
+8860145b63fffff,Sadashivanagar,No Junction,84,1.0,MEDIUM,False
+88618921d9fffff,Whitefield,No Junction,84,0.8867924528301887,LOW,False
+886016960dfffff,Yelahanka,No Junction,81,1.0,LOW,False
+88618924e9fffff,Hulimavu,No Junction,81,1.0,LOW,False
+8861892eedfffff,Banaswadi,No Junction,81,1.0,MEDIUM,False
+8860145b2dfffff,R.T. Nagar,No Junction,80,0.9577464788732394,MEDIUM,False
+886189249bfffff,Thalagattapura,No Junction,80,0.9761904761904762,LOW,False
+8861892ddbfffff,Hennuru,No Junction,78,0.9629629629629629,MEDIUM,False
+8860145a8dfffff,Jnanabharathi,No Junction,78,0.9838709677419355,LOW,False
+8860145945fffff,Kodigehalli,No Junction,78,0.90625,LOW,False
+8860145803fffff,Kamakshipalya,No Junction,78,1.0,LOW,False
+88618926b5fffff,Hulimavu,No Junction,77,0.9666666666666667,LOW,False
+8860145b13fffff,Vijayanagara,"BTP024 - NPS, Vijayanagar",77,1.0,HIGH,False
+8860145165fffff,K.S. Layout,No Junction,77,0.9818181818181818,LOW,False
+88618921d1fffff,Whitefield,No Junction,76,1.0,LOW,False
+886189258bfffff,Mico Layout,BTP126 - Dairy Circle,76,0.9259259259259259,HIGH,False
+8860145335fffff,Thalagattapura,No Junction,75,0.9629629629629629,LOW,False
+8860145939fffff,Jalahalli,No Junction,74,0.967741935483871,LOW,False
+88618925d3fffff,Jayanagara,"BTP177 - Aurobindo Circle, ORR",73,0.9714285714285714,HIGH,False
+8860145a03fffff,Banashankari,No Junction,73,0.967741935483871,MEDIUM,False
+886014583dfffff,Peenya,No Junction,73,0.9714285714285714,LOW,False
+8861892eb1fffff,K.G. Halli,No Junction,72,0.9482758620689655,LOW,False
+8861892427fffff,HSR Layout,No Junction,71,1.0,LOW,False
+8861892c3dfffff,Hennuru,No Junction,71,0.8571428571428571,LOW,False
+8861892e47fffff,Mahadevapura,No Junction,71,1.0,LOW,False
+8861892719fffff,Electronic City,No Junction,71,1.0,LOW,False
+8861892e4dfffff,Mahadevapura,No Junction,70,1.0,LOW,False
+8861892ec7fffff,Jeevanbheemanagar,No Junction,69,0.95,LOW,False
+8860145a0dfffff,Banashankari,No Junction,69,1.0,LOW,False
+8861892493fffff,Thalagattapura,No Junction,68,1.0,LOW,False
+8861892189fffff,Whitefield,No Junction,68,0.9655172413793104,LOW,False
+8861892c51fffff,Hennuru,No Junction,66,1.0,LOW,False
+8861892ea3fffff,Banaswadi,No Junction,65,1.0,LOW,False
+8860145a61fffff,Basavanagudi,BTP215 - Vanivillas Junction,65,1.0,HIGH,False
+8860145985fffff,No Police Station,No Junction,64,0.9444444444444444,LOW,False
+8860145a67fffff,Chamarajpet,BTP091 - Sirsi Circle,64,1.0,HIGH,False
+886014596dfffff,Kodigehalli,No Junction,64,1.0,MEDIUM,False
+88618921d5fffff,Whitefield,No Junction,64,1.0,LOW,False
+8861892ccdfffff,K.G. Halli,No Junction,64,1.0,MEDIUM,False
+88601458edfffff,Kamakshipalya,No Junction,63,1.0,LOW,False
+8860145917fffff,Jalahalli,No Junction,63,0.9591836734693877,MEDIUM,False
+88618924e3fffff,J.P. Nagar,No Junction,63,1.0,LOW,False
+8861892ea7fffff,Banaswadi,No Junction,63,0.8918918918918919,LOW,False
+88618925cbfffff,Mico Layout,"BTP164 - 29th Main Road, BTM Layout",62,1.0,HIGH,False
+8860145837fffff,Kamakshipalya,No Junction,61,1.0,LOW,False
+8860169051fffff,Chikkajala,No Junction,61,1.0,LOW,False
+8861892419fffff,Hulimavu,No Junction,60,0.975,LOW,False
+88601459b1fffff,No Police Station,No Junction,60,1.0,LOW,False
+8861892e05fffff,Mahadevapura,No Junction,60,0.5,MEDIUM,False
+886014585bfffff,Jnanabharathi,No Junction,60,0.9230769230769231,LOW,False
+8860145b6dfffff,R.T. Nagar,No Junction,58,0.9807692307692307,LOW,False
+8861892e89fffff,Jeevanbheemanagar,No Junction,57,0.8666666666666667,LOW,False
+8860145855fffff,Jnanabharathi,No Junction,57,0.8611111111111112,LOW,False
+8860145a5bfffff,K.S. Layout,No Junction,57,1.0,LOW,False
+88618925e7fffff,Ashok Nagar,No Junction,56,1.0,LOW,False
+886014590dfffff,Jalahalli,No Junction,56,0.9642857142857143,MEDIUM,False
+8861892c95fffff,Kodigehalli,No Junction,55,1.0,MEDIUM,False
+8860145acbfffff,Kengeri,No Junction,55,1.0,LOW,False
+88618925adfffff,Ashok Nagar,BTP142 - Lower Agram Road Junction,54,1.0,HIGH,False
+886016961bfffff,Yelahanka,No Junction,54,0.9696969696969697,LOW,False
+8861892195fffff,Mahadevapura,No Junction,54,1.0,LOW,False
+8861892289fffff,No Police Station,No Junction,53,0.7666666666666667,LOW,False
+8860169047fffff,Devanahalli Airport,No Junction,51,1.0,LOW,False
+8860145149fffff,Thalagattapura,No Junction,50,1.0,LOW,False
+8860145867fffff,Rajajinagar,No Junction,49,1.0,LOW,False
+886189252bfffff,Jeevanbheemanagar,No Junction,48,0.9444444444444444,LOW,False
+88618924a9fffff,J.P. Nagar,"BTP200 - 15th Cross, 33rd Main, JP Nagar",48,1.0,HIGH,False
+8861892413fffff,Hulimavu,No Junction,48,1.0,MEDIUM,False
+88618921adfffff,Mahadevapura,No Junction,47,0.96,LOW,False
+8861892465fffff,Bellandur,No Junction,47,1.0,LOW,False
+8861892481fffff,Thalagattapura,No Junction,46,1.0,LOW,False
+88618925abfffff,Ashok Nagar,BTP172 - Nanjappa Circle,45,1.0,HIGH,False
+8861892491fffff,Thalagattapura,No Junction,44,1.0,LOW,False
+886189243dfffff,Madiwala,No Junction,44,1.0,LOW,False
+8860169603fffff,Yelahanka,No Junction,43,1.0,LOW,False
+8861892f53fffff,K.R. Pura,No Junction,43,1.0,LOW,False
+8860145949fffff,Yeshwanthpura,No Junction,42,1.0,LOW,False
+8861892ee5fffff,Banaswadi,No Junction,42,1.0,LOW,False
+8860145987fffff,No Police Station,No Junction,42,1.0,LOW,False
+88618934adfffff,Electronic City,No Junction,41,1.0,LOW,False
+8861892c8dfffff,K.G. Halli,No Junction,41,0.7857142857142857,LOW,False
+88601459b3fffff,No Police Station,No Junction,40,0.8571428571428571,LOW,False
+88601459b9fffff,No Police Station,No Junction,39,0.8888888888888888,LOW,False
+886189246bfffff,Electronic City,No Junction,39,0.9736842105263158,LOW,False
+88618924a3fffff,K.S. Layout,BTP157 - Kadirenahalli Cross,39,1.0,HIGH,False
+88618934a7fffff,Electronic City,No Junction,38,0.918918918918919,MEDIUM,False
+8861892e0bfffff,Mahadevapura,No Junction,38,1.0,MEDIUM,False
+8861892409fffff,Hulimavu,No Junction,37,1.0,LOW,False
+8861892ecdfffff,Banaswadi,No Junction,37,0.8260869565217391,LOW,False
+8861892603fffff,Electronic City,No Junction,37,1.0,LOW,False
+8861892e1dfffff,Banaswadi,No Junction,36,0.9047619047619048,LOW,False
+8861892ccbfffff,K.G. Halli,No Junction,36,1.0,LOW,False
+886014591dfffff,Jalahalli,No Junction,36,0.9642857142857143,LOW,False
+8860169015fffff,Devanahalli Airport,No Junction,36,0.92,LOW,False
+8861892645fffff,Electronic City,No Junction,36,0.9285714285714286,LOW,False
+8861892f55fffff,K.R. Pura,No Junction,36,0.9333333333333333,LOW,False
+88618925e1fffff,Ashok Nagar,No Junction,35,0.9666666666666667,LOW,False
+8861892627fffff,Electronic City,No Junction,35,0.8181818181818182,MEDIUM,False
+8861892c31fffff,Hennuru,No Junction,34,1.0,LOW,False
+886189253bfffff,Jeevanbheemanagar,No Junction,34,0.8571428571428571,LOW,False
+8861892c35fffff,Hennuru,No Junction,34,1.0,LOW,False
+8861892e67fffff,K.R. Pura,No Junction,34,1.0,LOW,False
+8860169619fffff,Yelahanka,No Junction,33,1.0,MEDIUM,False
+8860145ae3fffff,Jnanabharathi,No Junction,33,1.0,LOW,False
+8860145813fffff,Kamakshipalya,No Junction,33,1.0,LOW,False
+8861892e85fffff,Banaswadi,No Junction,32,0.9259259259259259,LOW,False
+8860145a4dfffff,Banashankari,No Junction,32,0.8888888888888888,LOW,False
+8861892e21fffff,K.R. Pura,No Junction,32,1.0,LOW,False
+886189256dfffff,HAL Old Airport,No Junction,31,1.0,LOW,False
+886189219bfffff,Mahadevapura,No Junction,30,1.0,LOW,False
+886016966dfffff,Yelahanka,No Junction,30,1.0,LOW,False
+886016962bfffff,Yelahanka,No Junction,30,1.0,LOW,False
+886016900dfffff,Devanahalli Airport,No Junction,30,1.0,LOW,False
+8861892c39fffff,Hennuru,No Junction,29,1.0,LOW,False
+8860145a3dfffff,Byatarayanapura,BTP017 - Attiguppe Circle,29,1.0,HIGH,False
+8860145825fffff,Peenya,No Junction,29,1.0,MEDIUM,False
+8861892e2dfffff,K.R. Pura,No Junction,29,0.7647058823529411,MEDIUM,False
+8860169761fffff,Chikkajala,No Junction,29,1.0,MEDIUM,False
+8861892725fffff,Bellandur,No Junction,29,1.0,LOW,False
+8861892467fffff,HSR Layout,No Junction,28,1.0,MEDIUM,False
+8860145a47fffff,Basavanagudi,No Junction,28,0.875,LOW,False
+886014591bfffff,Peenya,No Junction,28,1.0,LOW,False
+8860145b23fffff,Sadashivanagar,No Junction,28,1.0,LOW,False
+88601459e7fffff,Chikkabanavara,No Junction,28,0.8823529411764706,LOW,False
+8861892e6bfffff,Mahadevapura,No Junction,27,1.0,LOW,False
+8861892cc9fffff,K.G. Halli,No Junction,27,0.75,MEDIUM,False
+8860145a51fffff,Banashankari,No Junction,27,1.0,MEDIUM,False
+8861892521fffff,Jeevanbheemanagar,No Junction,27,0.7777777777777778,LOW,False
+8860145123fffff,Kengeri,No Junction,27,1.0,LOW,False
+8861892f51fffff,K.R. Pura,No Junction,27,0.9583333333333334,LOW,False
+8861892c5bfffff,Banaswadi,No Junction,27,1.0,LOW,False
+8860169009fffff,Devanahalli Airport,No Junction,26,1.0,MEDIUM,False
+8860145a17fffff,Byatarayanapura,No Junction,26,0.9166666666666666,LOW,False
+8861892cedfffff,Hennuru,No Junction,26,1.0,MEDIUM,False
+8861892cc7fffff,Hennuru,No Junction,26,1.0,LOW,False
+88618925dbfffff,J.P. Nagar,"BTP198 - 9th Cross, 8th Main, JP Nagar",26,1.0,HIGH,False
+8860145a63fffff,Basavanagudi,No Junction,26,1.0,LOW,False
+8861892cd1fffff,R.T. Nagar,No Junction,25,1.0,LOW,False
+8861892e13fffff,Banaswadi,No Junction,25,1.0,LOW,False
+8861892401fffff,Hulimavu,No Junction,25,1.0,LOW,False
+8860145943fffff,Yeshwanthpura,No Junction,25,0.8235294117647058,LOW,False
+886189218dfffff,Mahadevapura,No Junction,25,0.9,LOW,False
+8860145a4bfffff,Banashankari,BTP158 - Devegowda Petrol Bunk,24,1.0,HIGH,False
+8861892c55fffff,Hennuru,No Junction,24,1.0,LOW,False
+8861892e61fffff,K.R. Pura,No Junction,24,1.0,LOW,False
+8861892737fffff,Bellandur,No Junction,24,1.0,LOW,False
+8861892e8bfffff,Halasur,No Junction,24,1.0,LOW,False
+8861892517fffff,Ashok Nagar,No Junction,24,1.0,LOW,False
+8860145911fffff,Peenya,No Junction,24,1.0,LOW,False
+8861892ea1fffff,Banaswadi,No Junction,23,1.0,LOW,False
+8861892443fffff,Electronic City,No Junction,23,1.0,MEDIUM,False
+8860145a85fffff,Jnanabharathi,No Junction,23,1.0,LOW,False
+88618920e7fffff,Whitefield,No Junction,22,1.0,MEDIUM,False
+8861892eb5fffff,K.G. Halli,No Junction,21,1.0,LOW,False
+8860144b5bfffff,No Police Station,No Junction,21,1.0,LOW,False
+886189248dfffff,J.P. Nagar,No Junction,21,1.0,LOW,False
+8861892519fffff,HSR Layout,No Junction,21,0.8571428571428571,LOW,False
+8861892c4bfffff,Banaswadi,No Junction,21,0.9090909090909091,LOW,False
+88618924d7fffff,Thalagattapura,No Junction,21,0.9333333333333333,LOW,False
+88618920edfffff,Whitefield,No Junction,21,1.0,MEDIUM,False
+88601458e5fffff,Kamakshipalya,No Junction,21,1.0,LOW,False
+8861892605fffff,Electronic City,No Junction,21,1.0,LOW,False
+8860169665fffff,Yelahanka,No Junction,20,1.0,LOW,False
+8860145965fffff,Kodigehalli,No Junction,20,0.9285714285714286,LOW,False
+8861892c1bfffff,Hennuru,No Junction,20,1.0,MEDIUM,False
+8861892ca7fffff,Hebbala,No Junction,20,1.0,MEDIUM,False
+886014580dfffff,Kamakshipalya,No Junction,20,1.0,LOW,False
+8860145a41fffff,Banashankari,BTP158 - Devegowda Petrol Bunk,20,1.0,HIGH,False
+8861892283fffff,No Police Station,No Junction,20,1.0,MEDIUM,False
+8860169621fffff,Yelahanka,No Junction,19,1.0,LOW,False
+88601690d9fffff,Chikkajala,No Junction,19,1.0,LOW,False
+88618920c1fffff,Whitefield,No Junction,19,0.875,MEDIUM,False
+8860145a49fffff,Banashankari,No Junction,19,1.0,MEDIUM,False
+8860144b4dfffff,Chikkabanavara,No Junction,19,1.0,LOW,False
+886189266dfffff,Electronic City,No Junction,19,0.75,LOW,False
+8861892461fffff,HSR Layout,No Junction,18,0.7857142857142857,LOW,False
+8860145919fffff,Yeshwanthpura,No Junction,18,1.0,MEDIUM,False
+886189243bfffff,Mico Layout,No Junction,18,0.8,LOW,False
+8861892593fffff,Banashankari,"BTP112 - 14th Cross, KR Road",18,1.0,HIGH,False
+8860145861fffff,Vijayanagara,No Junction,18,0.8888888888888888,LOW,False
+8861892411fffff,Hulimavu,No Junction,18,1.0,LOW,False
+8860169739fffff,Chikkajala,No Junction,18,1.0,LOW,False
+88618921c5fffff,Mahadevapura,No Junction,18,1.0,LOW,False
+88618925cdfffff,Adugodi,No Junction,18,1.0,MEDIUM,False
+8860145ac1fffff,Kengeri,No Junction,17,1.0,LOW,False
+8861892715fffff,Electronic City,No Junction,17,1.0,LOW,False
+88601696d3fffff,Chikkabanavara,No Junction,17,1.0,LOW,False
+8861892445fffff,Electronic City,No Junction,17,1.0,LOW,False
+8861892433fffff,Mico Layout,BTP130 - GD Mara Junction,17,1.0,HIGH,False
+8861892c53fffff,Banaswadi,No Junction,16,0.9285714285714286,LOW,False
+8860145843fffff,Vijayanagara,No Junction,16,1.0,LOW,False
+8860145a89fffff,Kengeri,No Junction,16,0.9090909090909091,LOW,False
+8860145a1dfffff,Banashankari,No Junction,16,1.0,LOW,False
+88618924b5fffff,K.S. Layout,No Junction,16,1.0,LOW,False
+8861892661fffff,Electronic City,No Junction,15,1.0,LOW,False
+8860169649fffff,Yelahanka,No Junction,15,1.0,LOW,False
+886189209dfffff,HAL Old Airport,No Junction,15,1.0,LOW,False
+88618925edfffff,Ashok Nagar,No Junction,15,1.0,LOW,False
+88601459c1fffff,Peenya,No Junction,15,0.8,LOW,False
+88601459edfffff,Chikkabanavara,No Junction,15,1.0,LOW,False
+8860145a45fffff,Basavanagudi,No Junction,15,1.0,LOW,False
+88618925e3fffff,Adugodi,No Junction,15,1.0,LOW,False
+8861892439fffff,Madiwala,No Junction,14,1.0,LOW,False
+8860145853fffff,Jnanabharathi,No Junction,14,0.9166666666666666,LOW,False
+8861892e65fffff,K.R. Pura,No Junction,13,1.0,LOW,False
+8860145aa5fffff,Jnanabharathi,No Junction,13,1.0,LOW,False
+8860169609fffff,Yelahanka,No Junction,13,0.0,LOW,False
+8860145125fffff,Kengeri,No Junction,13,1.0,MEDIUM,False
+8861892ce1fffff,Hennuru,No Junction,13,1.0,MEDIUM,False
+8860145a1bfffff,Kengeri,No Junction,13,1.0,LOW,False
+8861892db3fffff,Yelahanka,No Junction,13,1.0,LOW,False
+88618921a5fffff,Mahadevapura,No Junction,12,0.6666666666666666,LOW,False
+8860169055fffff,Chikkajala,No Junction,12,1.0,LOW,False
+88618925a9fffff,Ashok Nagar,No Junction,12,0.5,MEDIUM,False
+8860169661fffff,Yelahanka,No Junction,12,0.9166666666666666,LOW,False
+8861892c81fffff,Hebbala,No Junction,12,1.0,LOW,False
+8861892e25fffff,K.R. Pura,No Junction,12,1.0,MEDIUM,False
+8860145967fffff,Jalahalli,No Junction,12,1.0,MEDIUM,False
+886016976bfffff,Chikkajala,No Junction,12,0.8888888888888888,LOW,False
+8861892f5bfffff,K.R. Pura,No Junction,12,1.0,LOW,False
+886014584bfffff,Vijayanagara,BTP214 - 5th Main Chamrajpet  Junction,12,1.0,MEDIUM,False
+8861892607fffff,Electronic City,No Junction,12,1.0,LOW,False
+8861892c3bfffff,Hennuru,No Junction,12,0.8888888888888888,MEDIUM,False
+8860145167fffff,K.S. Layout,No Junction,11,1.0,LOW,False
+8861892c59fffff,Banaswadi,No Junction,11,1.0,LOW,False
+88618921d3fffff,Whitefield,No Junction,11,1.0,LOW,False
+8860145ae5fffff,Jnanabharathi,No Junction,11,1.0,LOW,False
+8861892c15fffff,Hennuru,No Junction,11,1.0,LOW,False
+8860169653fffff,Yelahanka,No Junction,11,1.0,LOW,False
+88618924b9fffff,K.S. Layout,No Junction,11,1.0,LOW,False
+8861892717fffff,Electronic City,No Junction,11,1.0,MEDIUM,False
+88618926bdfffff,Hulimavu,No Junction,11,0.6666666666666666,MEDIUM,False
+88618926b1fffff,Thalagattapura,No Junction,11,1.0,LOW,False
+8861892407fffff,Madiwala,No Junction,11,1.0,LOW,False
+886016965bfffff,Kodigehalli,No Junction,10,0.8571428571428571,LOW,False
+8861892569fffff,HAL Old Airport,No Junction,10,0.6666666666666666,LOW,False
+8861892dd1fffff,Hennuru,No Junction,10,1.0,LOW,False
+8861892567fffff,HAL Old Airport,No Junction,10,1.0,MEDIUM,False
+8861892727fffff,HAL Old Airport,No Junction,10,1.0,LOW,False
+8860145b21fffff,Sadashivanagar,No Junction,10,1.0,LOW,False
+886014592dfffff,Yelahanka,No Junction,10,1.0,MEDIUM,False
+8861892081fffff,Whitefield,No Junction,10,1.0,LOW,False
+88601459c9fffff,Peenya,No Junction,10,0.8333333333333334,LOW,False
+88618925d5fffff,Jayanagara,"BTP127 - Sagar Hospital, Jayanagar",10,1.0,HIGH,False
+886016900bfffff,Devanahalli Airport,No Junction,9,1.0,LOW,False
+8860145127fffff,Kengeri,No Junction,9,0.0,LOW,False
+8860145811fffff,Kamakshipalya,No Junction,9,1.0,LOW,False
+8860145827fffff,Peenya,No Junction,9,1.0,LOW,False
+8861892cebfffff,Hennuru,No Junction,9,1.0,LOW,False
+8860145ad1fffff,Kengeri,No Junction,9,0.7142857142857143,LOW,False
+8861892495fffff,Thalagattapura,No Junction,9,1.0,LOW,False
+8861892565fffff,HAL Old Airport,No Junction,9,1.0,LOW,False
+8861892711fffff,Electronic City,No Junction,9,1.0,LOW,False
+8860145ad5fffff,Kengeri,No Junction,9,1.0,MEDIUM,False
+88618935b5fffff,Electronic City,No Junction,9,0.8888888888888888,LOW,False
+8861892ea9fffff,Banaswadi,No Junction,9,1.0,LOW,False
+88601459c5fffff,Peenya,No Junction,9,1.0,LOW,False
+8861892533fffff,Halasur,BTP146 - Domlur Water Tank,9,1.0,HIGH,False
+8861892e09fffff,Mahadevapura,No Junction,9,1.0,LOW,False
+8860169759fffff,Yelahanka,No Junction,9,1.0,LOW,False
+8861892ab9fffff,K.R. Pura,No Junction,9,1.0,LOW,False
+88601458c7fffff,Kamakshipalya,No Junction,9,1.0,MEDIUM,False
+886189240bfffff,Hulimavu,No Junction,8,1.0,LOW,False
+8861892eabfffff,Banaswadi,No Junction,8,1.0,LOW,False
+8861892733fffff,Bellandur,No Junction,8,1.0,LOW,False
+8860145925fffff,Yelahanka,No Junction,8,1.0,LOW,False
+8860145121fffff,Kengeri,No Junction,8,1.0,LOW,False
+88618920cbfffff,Whitefield,No Junction,8,1.0,MEDIUM,False
+8861892ce5fffff,Hennuru,No Junction,8,1.0,LOW,False
+88618921abfffff,Mahadevapura,No Junction,8,1.0,LOW,False
+8860145ae7fffff,Jnanabharathi,No Junction,7,1.0,MEDIUM,False
+886189272bfffff,Bellandur,No Junction,7,0.42857142857142855,LOW,False
+88618924b1fffff,K.S. Layout,No Junction,7,1.0,MEDIUM,False
+8860145817fffff,Kamakshipalya,No Junction,7,1.0,LOW,False
+88618920a5fffff,Whitefield,No Junction,7,1.0,MEDIUM,False
+8860145ae1fffff,Jnanabharathi,No Junction,7,1.0,LOW,False
+886189263bfffff,Electronic City,No Junction,7,1.0,MEDIUM,False
+88618934a5fffff,Electronic City,No Junction,7,1.0,LOW,False
+8860145909fffff,Jalahalli,No Junction,7,0.75,LOW,False
+8861892e5bfffff,HAL Old Airport,No Junction,7,0.0,LOW,False
+8861892037fffff,Whitefield,No Junction,7,0.8571428571428571,LOW,False
+8860145915fffff,Jalahalli,No Junction,7,1.0,LOW,False
+88601690d5fffff,Chikkajala,No Junction,7,1.0,LOW,False
+8861892197fffff,Mahadevapura,No Junction,7,1.0,LOW,False
+886016911bfffff,Devanahalli Airport,No Junction,7,1.0,LOW,False
+8860169643fffff,Yelahanka,No Junction,7,1.0,LOW,False
+8861892181fffff,Mahadevapura,No Junction,7,0.0,LOW,False
+88618920b5fffff,HAL Old Airport,No Junction,7,0.3333333333333333,LOW,False
+8861892463fffff,HSR Layout,No Junction,7,1.0,LOW,False
+8861892eadfffff,Banaswadi,No Junction,7,0.6666666666666666,LOW,False
+8861892e03fffff,Mahadevapura,No Junction,7,0.7142857142857143,LOW,False
+88601459d9fffff,Kamakshipalya,No Junction,6,1.0,LOW,False
+886189262dfffff,Electronic City,No Junction,6,1.0,LOW,False
+8861892ca1fffff,Hebbala,No Junction,6,1.0,MEDIUM,False
+8861892e83fffff,Pulikeshinagar(F.Town),No Junction,6,0.0,LOW,False
+88601459cdfffff,Peenya,No Junction,6,0.5,LOW,False
+88601696dbfffff,Chikkabanavara,No Junction,6,1.0,LOW,False
+88601692a5fffff,Chikkajala,No Junction,6,1.0,LOW,False
+8860145a87fffff,Jnanabharathi,No Junction,6,1.0,LOW,False
+8861892635fffff,Electronic City,No Junction,6,1.0,LOW,False
+88601690e9fffff,Devanahalli Airport,No Junction,6,1.0,LOW,False
+8861892f67fffff,K.R. Pura,No Junction,6,0.6666666666666666,LOW,False
+8860169663fffff,Yelahanka,No Junction,6,1.0,LOW,False
+8861892e33fffff,Banaswadi,No Junction,5,1.0,LOW,False
+88618924d5fffff,Thalagattapura,No Junction,5,1.0,LOW,False
+8860145b65fffff,R.T. Nagar,No Junction,5,1.0,LOW,False
+8860169651fffff,Kodigehalli,No Junction,5,1.0,LOW,False
+886016905dfffff,Chikkajala,No Junction,5,0.0,LOW,False
+88618924bdfffff,K.S. Layout,No Junction,5,1.0,LOW,False
+886014588bfffff,No Police Station,No Junction,5,0.0,LOW,False
+8860169627fffff,Yelahanka,No Junction,5,1.0,MEDIUM,False
+8860145a57fffff,Banashankari,No Junction,5,1.0,MEDIUM,False
+88618924c9fffff,Hulimavu,No Junction,5,0.75,LOW,False
+8860145a09fffff,Banashankari,BTP154 - Itmadu Junction,5,1.0,HIGH,False
+8861892549fffff,HAL Old Airport,No Junction,5,1.0,LOW,False
+8861892cddfffff,K.G. Halli,No Junction,5,0.0,LOW,False
+886014586bfffff,Vijayanagara,No Junction,4,1.0,LOW,False
+8861892e27fffff,K.R. Pura,No Junction,4,1.0,LOW,False
+8861892cc3fffff,K.G. Halli,No Junction,4,0.0,LOW,False
+8861892199fffff,Whitefield,No Junction,4,1.0,MEDIUM,False
+88618924ebfffff,J.P. Nagar,No Junction,4,1.0,LOW,False
+8860145aadfffff,Jnanabharathi,No Junction,4,1.0,HIGH,False
+88601451d7fffff,Kengeri,No Junction,4,1.0,LOW,False
+886189256bfffff,HAL Old Airport,No Junction,4,0.0,LOW,False
+8861892f43fffff,K.R. Pura,No Junction,4,1.0,LOW,False
+886014581bfffff,Jnanabharathi,No Junction,4,1.0,LOW,False
+8861892485fffff,J.P. Nagar,No Junction,4,1.0,LOW,False
+8861892431fffff,Mico Layout,No Junction,4,1.0,LOW,False
+8860145857fffff,Jnanabharathi,No Junction,4,1.0,LOW,False
+886189249dfffff,Thalagattapura,No Junction,4,1.0,LOW,False
+8861892eb7fffff,K.G. Halli,No Junction,4,1.0,LOW,False
+88601459adfffff,Chikkabanavara,No Junction,4,1.0,MEDIUM,False
+8861892cd5fffff,Hebbala,No Junction,4,1.0,LOW,False
+8860145a5dfffff,K.S. Layout,No Junction,4,0.0,LOW,False
+886014512bfffff,Kengeri,No Junction,4,1.0,MEDIUM,False
+8860169115fffff,Devanahalli Airport,No Junction,4,0.6666666666666666,MEDIUM,False
+886189252dfffff,HAL Old Airport,No Junction,4,1.0,MEDIUM,False
+8860169103fffff,Devanahalli Airport,No Junction,4,0.0,LOW,False
+8860144a2dfffff,No Police Station,No Junction,4,1.0,LOW,False
+8861892cd7fffff,R.T. Nagar,No Junction,4,1.0,LOW,False
+8860145a01fffff,Banashankari,No Junction,3,1.0,MEDIUM,False
+886189272dfffff,Bellandur,No Junction,3,1.0,MEDIUM,False
+8861892cadfffff,Hennuru,No Junction,3,1.0,MEDIUM,False
+886016970dfffff,Chikkajala,No Junction,3,1.0,MEDIUM,False
+8860169605fffff,Yelahanka,No Junction,3,1.0,MEDIUM,False
+8860169699fffff,Chikkabanavara,No Junction,3,0.0,MEDIUM,False
+8861892e53fffff,Banaswadi,No Junction,3,1.0,MEDIUM,False
+8860145a59fffff,K.S. Layout,No Junction,3,0.0,MEDIUM,False
+8861892c37fffff,Hennuru,No Junction,3,1.0,LOW,False
+8860145907fffff,Jalahalli,No Junction,3,1.0,LOW,False
+8860145141fffff,Thalagattapura,No Junction,3,1.0,MEDIUM,False
+8861892f61fffff,K.R. Pura,No Junction,3,1.0,LOW,False
+88601459e3fffff,Chikkabanavara,No Junction,3,0.0,LOW,False
+8860169003fffff,Devanahalli Airport,No Junction,3,1.0,LOW,False
+8861892e11fffff,Banaswadi,No Junction,3,1.0,LOW,False
+8861892d89fffff,Hennuru,No Junction,3,1.0,LOW,False
+8860145187fffff,Kengeri,No Junction,3,0.0,LOW,False
+88618926b9fffff,Hulimavu,No Junction,3,1.0,LOW,False
+8861892417fffff,Mico Layout,No Junction,3,0.0,LOW,False
+8861892ee7fffff,Banaswadi,No Junction,3,1.0,LOW,False
+88618920c5fffff,Whitefield,No Junction,3,1.0,LOW,False
+8860169157fffff,Devanahalli Airport,No Junction,3,1.0,LOW,False
+8861892c11fffff,Hennuru,No Junction,3,1.0,MEDIUM,False
+886016965dfffff,Yelahanka,No Junction,3,1.0,LOW,False
+8861892dbbfffff,Yelahanka,No Junction,3,1.0,LOW,False
+8861892dddfffff,Hennuru,No Junction,3,1.0,LOW,False
+8860169111fffff,Devanahalli Airport,No Junction,3,0.0,LOW,False
+88601451e5fffff,Kengeri,No Junction,3,1.0,LOW,False
+8861892c91fffff,Kodigehalli,No Junction,3,1.0,LOW,False
+8860169231fffff,Chikkajala,No Junction,2,1.0,LOW,False
+8860145ad7fffff,Kengeri,No Junction,2,1.0,LOW,False
+8861892539fffff,HAL Old Airport,No Junction,2,1.0,LOW,False
+8861892601fffff,Electronic City,No Junction,2,1.0,LOW,False
+8861892ce3fffff,Hennuru,No Junction,2,0.0,LOW,False
+886014593dfffff,Jalahalli,No Junction,2,0.0,LOW,False
+8860145933fffff,Chikkabanavara,No Junction,2,1.0,LOW,False
+8861892d87fffff,Hennuru,No Junction,2,0.0,LOW,False
+8861892403fffff,Hulimavu,No Junction,2,1.0,MEDIUM,False
+8861892615fffff,Electronic City,No Junction,2,1.0,LOW,False
+8861892d81fffff,Hennuru,No Junction,2,1.0,LOW,False
+8861892017fffff,Whitefield,No Junction,2,0.0,LOW,False
+8860145839fffff,Peenya,No Junction,2,1.0,HIGH,False
+8861892193fffff,Mahadevapura,No Junction,2,0.0,LOW,False
+8860169119fffff,Devanahalli Airport,No Junction,2,1.0,LOW,False
+8860145a55fffff,Banashankari,BTP154 - Itmadu Junction,2,1.0,HIGH,False
+8861892ca3fffff,Hebbala,No Junction,2,1.0,LOW,False
+8860145addfffff,Kengeri,No Junction,2,1.0,LOW,False
+8860169723fffff,Chikkajala,No Junction,2,1.0,HIGH,False
+88618920e1fffff,Whitefield,No Junction,2,0.0,HIGH,False
+88618924cbfffff,Thalagattapura,No Junction,2,1.0,LOW,False
+8861892e81fffff,Pulikeshinagar(F.Town),No Junction,2,1.0,HIGH,False
+88618924bbfffff,K.S. Layout,No Junction,2,0.0,LOW,False
+88618924c3fffff,J.P. Nagar,No Junction,2,1.0,LOW,False
+88618924d1fffff,Thalagattapura,No Junction,2,1.0,HIGH,False
+8861892e15fffff,Mahadevapura,No Junction,2,1.0,LOW,False
+8860145169fffff,Thalagattapura,No Junction,2,1.0,MEDIUM,False
+8861892e19fffff,Banaswadi,No Junction,2,1.0,LOW,False
+88601451e3fffff,Kengeri,No Junction,2,1.0,LOW,False
+88601459bdfffff,No Police Station,No Junction,2,1.0,LOW,False
+8860169001fffff,Devanahalli Airport,No Junction,2,1.0,LOW,False
+8860169659fffff,Kodigehalli,No Junction,2,0.0,LOW,False
+8861892e63fffff,Mahadevapura,No Junction,2,0.0,LOW,False
+8861892525fffff,Banaswadi,No Junction,2,1.0,MEDIUM,False
+8861892dc3fffff,Hennuru,No Junction,2,1.0,MEDIUM,False
+8860169449fffff,Yelahanka,No Junction,2,1.0,LOW,False
+8860169641fffff,Hebbala,No Junction,2,0.5,MEDIUM,False
+8860144a65fffff,No Police Station,No Junction,2,0.0,LOW,False
+8861892c89fffff,K.G. Halli,No Junction,2,1.0,MEDIUM,False
+8860169045fffff,Devanahalli Airport,No Junction,2,1.0,MEDIUM,False
+88618924e1fffff,J.P. Nagar,No Junction,2,0.0,LOW,False
+8860169027fffff,Devanahalli Airport,No Junction,2,0.0,LOW,False
+8860145ac3fffff,Kengeri,No Junction,2,1.0,LOW,False
+8860145903fffff,Jalahalli,No Junction,2,1.0,LOW,False
+8861892c8bfffff,Hebbala,No Junction,2,1.0,LOW,False
+8861892cbbfffff,Kodigehalli,No Junction,2,1.0,LOW,False
+8861892c09fffff,Hennuru,No Junction,2,1.0,LOW,False
+8861892dc9fffff,Hennuru,No Junction,2,1.0,LOW,False
+8860145ac5fffff,Kengeri,No Junction,2,1.0,LOW,False
+8861892f2dfffff,K.R. Pura,No Junction,1,0.0,LOW,False
+88618934a1fffff,Electronic City,No Junction,1,1.0,LOW,False
+8861892e37fffff,Banaswadi,No Junction,1,1.0,LOW,False
+8861892e57fffff,Banaswadi,No Junction,1,1.0,LOW,False
+8861892499fffff,Thalagattapura,No Junction,1,0.0,LOW,False
+8861892469fffff,Electronic City,No Junction,1,0.0,HIGH,False
+8861892457fffff,Hulimavu,No Junction,1,0.0,HIGH,False
+8860169611fffff,Yelahanka,No Junction,1,1.0,HIGH,False
+8861892c49fffff,K.R. Pura,No Junction,1,1.0,HIGH,False
+88618924ddfffff,Thalagattapura,No Junction,1,0.0,LOW,False
+88618926adfffff,Hulimavu,No Junction,1,0.0,LOW,False
+886189263dfffff,Electronic City,No Junction,1,1.0,LOW,False
+88618924d9fffff,Thalagattapura,No Junction,1,1.0,LOW,False
+8860169693fffff,Chikkabanavara,No Junction,1,0.0,LOW,False
+8860169107fffff,Devanahalli Airport,No Junction,1,1.0,LOW,False
+88618921dbfffff,Whitefield,No Junction,1,0.0,LOW,False
+886016906bfffff,Devanahalli Airport,No Junction,1,1.0,LOW,False
+88618920c9fffff,Whitefield,No Junction,1,0.0,LOW,False
+886016913dfffff,Devanahalli Airport,No Junction,1,1.0,LOW,False
+886189241bfffff,Hulimavu,No Junction,1,1.0,LOW,False
+8860169221fffff,Chikkajala,No Junction,1,1.0,LOW,False
+88601692b1fffff,Chikkajala,No Junction,1,0.0,LOW,False
+8860169691fffff,Chikkabanavara,No Junction,1,0.0,LOW,False
+886016944dfffff,No Police Station,No Junction,1,0.0,LOW,False
+8861892013fffff,Whitefield,No Junction,1,0.0,LOW,False
+886189229dfffff,No Police Station,No Junction,1,0.0,HIGH,False
+8860145aa9fffff,Jnanabharathi,No Junction,1,0.0,HIGH,False
+8860169741fffff,Chikkajala,No Junction,1,1.0,HIGH,False
+88601451e7fffff,Kengeri,No Junction,1,0.0,HIGH,False
+8861892edbfffff,Halasur,BTP144 - Commando Hospital Junction,1,1.0,HIGH,False
+8861892f57fffff,K.R. Pura,No Junction,1,0.0,LOW,False
+8861892f4dfffff,Mahadevapura,No Junction,1,1.0,LOW,False
+8861892415fffff,Mico Layout,No Junction,1,1.0,LOW,False
+886014511dfffff,Thalagattapura,No Junction,1,0.0,LOW,False
+88618921ddfffff,Whitefield,No Junction,1,1.0,LOW,False
+88601680c1fffff,No Police Station,No Junction,1,0.0,LOW,False
+8860169017fffff,Devanahalli Airport,No Junction,1,0.0,LOW,False
+88601451bdfffff,Kengeri,No Junction,1,0.0,LOW,False
+8860145185fffff,Kengeri,No Junction,1,0.0,LOW,False
+8861892281fffff,No Police Station,No Junction,1,0.0,LOW,False
+8860145a37fffff,Byatarayanapura,No Junction,1,1.0,LOW,False
+8861892629fffff,Electronic City,No Junction,1,1.0,LOW,False
+8861892559fffff,Bellandur,No Junction,1,0.0,LOW,False
+8860145821fffff,Rajajinagar,No Junction,1,0.0,LOW,False
+8860145961fffff,Kodigehalli,No Junction,1,1.0,LOW,False
+886189271dfffff,Electronic City,No Junction,1,1.0,LOW,False
+8861892761fffff,Whitefield,No Junction,1,0.0,LOW,False
+8860145931fffff,Jalahalli,No Junction,1,1.0,LOW,False
+8860145acdfffff,Kengeri,No Junction,1,0.0,LOW,False
+8861892a95fffff,K.R. Pura,No Junction,1,1.0,LOW,False
+8861892551fffff,Bellandur,No Junction,1,1.0,LOW,False
+8861892dabfffff,Yelahanka,No Junction,1,1.0,LOW,False
+8860145921fffff,Yelahanka,No Junction,1,0.0,LOW,False
+8860145129fffff,Kengeri,No Junction,1,1.0,LOW,False
+88618934e7fffff,No Police Station,No Junction,1,0.0,LOW,False
+8860145109fffff,Thalagattapura,No Junction,1,1.0,LOW,False
+8860144b59fffff,No Police Station,No Junction,1,0.0,LOW,False

@@ -1,0 +1,2535 @@
+{
+  "generated_at": "2026-06-23T02:45:17Z",
+  "n_officers_available": 20,
+  "n_officers_deployed": 20,
+  "enforcement_resource_gap_analysis": {
+    "officer_stop_capacity": 160,
+    "critical_plus_high_cells": 119,
+    "gap": 0,
+    "interpretation": "With 20 officers \u00d7 8 stops = 160 coverage slots and 119 CRITICAL/HIGH priority cells, the enforcement resource gap is 0 cells. All CRITICAL/HIGH zones are covered in this run."
+  },
+  "optimization_method": "Zone-aware OR-Tools CP-SAT (PRD-2): zones tightened to ~900 m eps. Routes further capped to MAX_ROUTE_BBOX_KM bounding box \u2014 excess cells deferred to next shift. Officer count capped to exactly n_officers (Fix #2).",
+  "unassigned_critical_or_high_cells": 17,
+  "deployment": [
+    {
+      "officer_id": "OFFICER_01",
+      "route_id": "OFFICER_01",
+      "zone_id": "0",
+      "n_stops": 8,
+      "total_route_priority_score": 3.668,
+      "estimated_route_distance_km": 5.0,
+      "enforcement_priority": "MEDIUM",
+      "assigned_vehicle_type": "FOUR_WHEELER_PATROL",
+      "estimated_coverage_mins": 25,
+      "station_sequence": [
+        "Upparpet",
+        "Upparpet",
+        "Upparpet",
+        "City Market",
+        "Halasuru Gate",
+        "City Market",
+        "Wilson Garden",
+        "Halasuru Gate"
+      ],
+      "optimized_path_coordinates": [
+        [
+          12.977396,
+          77.575475
+        ],
+        [
+          12.977524,
+          77.579517
+        ],
+        [
+          12.971896,
+          77.577826
+        ],
+        [
+          12.964478,
+          77.576086
+        ],
+        [
+          12.964206,
+          77.581352
+        ],
+        [
+          12.958426,
+          77.577242
+        ],
+        [
+          12.956353,
+          77.58521
+        ],
+        [
+          12.962983,
+          77.58848
+        ]
+      ],
+      "priority_violations": 3668,
+      "route": [
+        {
+          "sequence": 1,
+          "h3_cell": "8860145b55fffff",
+          "h3_index": "8860145b55fffff",
+          "police_station": "Upparpet",
+          "junction_name": "BTP040 - Elite Junction",
+          "zone_id": "0",
+          "enforcement_priority_score": 0.8009,
+          "hotspot_tier": "CRITICAL",
+          "latitude": 12.977396,
+          "longitude": 77.575475,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 2,
+          "h3_cell": "8860145b43fffff",
+          "h3_index": "8860145b43fffff",
+          "police_station": "Upparpet",
+          "junction_name": "BTP044 - Sagar Theatre Junction",
+          "zone_id": "0",
+          "enforcement_priority_score": 0.5263,
+          "hotspot_tier": "CRITICAL",
+          "latitude": 12.977524,
+          "longitude": 77.579517,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 3,
+          "h3_cell": "8860145b5dfffff",
+          "h3_index": "8860145b5dfffff",
+          "police_station": "Upparpet",
+          "junction_name": "BTP044 - Sagar Theatre Junction",
+          "zone_id": "0",
+          "enforcement_priority_score": 0.5377,
+          "hotspot_tier": "CRITICAL",
+          "latitude": 12.971896,
+          "longitude": 77.577826,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 4,
+          "h3_cell": "8860145b59fffff",
+          "h3_index": "8860145b59fffff",
+          "police_station": "City Market",
+          "junction_name": "BTP082 - KR Market Junction",
+          "zone_id": "0",
+          "enforcement_priority_score": 0.5518,
+          "hotspot_tier": "CRITICAL",
+          "latitude": 12.964478,
+          "longitude": 77.576086,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 5,
+          "h3_cell": "88618925b7fffff",
+          "h3_index": "88618925b7fffff",
+          "police_station": "Halasuru Gate",
+          "junction_name": "BTP080 - NR Road, SP Road Junction",
+          "zone_id": "0",
+          "enforcement_priority_score": 0.4238,
+          "hotspot_tier": "CRITICAL",
+          "latitude": 12.964206,
+          "longitude": 77.581352,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 6,
+          "h3_cell": "88618925b3fffff",
+          "h3_index": "88618925b3fffff",
+          "police_station": "City Market",
+          "junction_name": "BTP104 - Medical College Circle",
+          "zone_id": "0",
+          "enforcement_priority_score": 0.3125,
+          "hotspot_tier": "CRITICAL",
+          "latitude": 12.958426,
+          "longitude": 77.577242,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 7,
+          "h3_cell": "88618925b1fffff",
+          "h3_index": "88618925b1fffff",
+          "police_station": "Wilson Garden",
+          "junction_name": "BTP192 - Urvashi Theater",
+          "zone_id": "0",
+          "enforcement_priority_score": 0.2541,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.956353,
+          "longitude": 77.58521,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 8,
+          "h3_cell": "88618925b5fffff",
+          "h3_index": "88618925b5fffff",
+          "police_station": "Halasuru Gate",
+          "junction_name": "BTP180 - Swagath Poornima Theatre",
+          "zone_id": "0",
+          "enforcement_priority_score": 0.2609,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.962983,
+          "longitude": 77.58848,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        }
+      ]
+    },
+    {
+      "officer_id": "OFFICER_02",
+      "route_id": "OFFICER_02",
+      "zone_id": "1",
+      "n_stops": 8,
+      "total_route_priority_score": 2.5953,
+      "estimated_route_distance_km": 5.16,
+      "enforcement_priority": "LOW",
+      "assigned_vehicle_type": "FOUR_WHEELER_PATROL",
+      "estimated_coverage_mins": 26,
+      "station_sequence": [
+        "Shivajinagar",
+        "Shivajinagar",
+        "Shivajinagar",
+        "Shivajinagar",
+        "Cubbon Park",
+        "High ground",
+        "High ground",
+        "Sheshadripuram"
+      ],
+      "optimized_path_coordinates": [
+        [
+          12.980968,
+          77.608447
+        ],
+        [
+          12.982934,
+          77.610662
+        ],
+        [
+          12.984301,
+          77.603627
+        ],
+        [
+          12.980864,
+          77.599187
+        ],
+        [
+          12.97852,
+          77.590346
+        ],
+        [
+          12.985447,
+          77.58649
+        ],
+        [
+          12.992589,
+          77.589132
+        ],
+        [
+          12.996432,
+          77.58367
+        ]
+      ],
+      "priority_violations": 2595,
+      "route": [
+        {
+          "sequence": 1,
+          "h3_cell": "8861892e9bfffff",
+          "h3_index": "8861892e9bfffff",
+          "police_station": "Shivajinagar",
+          "junction_name": "BTP051 - Safina Plaza Junction",
+          "zone_id": "1",
+          "enforcement_priority_score": 0.6507,
+          "hotspot_tier": "CRITICAL",
+          "latitude": 12.980968,
+          "longitude": 77.608447,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 2,
+          "h3_cell": "8861892e91fffff",
+          "h3_index": "8861892e91fffff",
+          "police_station": "Shivajinagar",
+          "junction_name": "No Junction",
+          "zone_id": "1",
+          "enforcement_priority_score": 0.2214,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.982934,
+          "longitude": 77.610662,
+          "recommended_vehicle": "TWO_WHEELER_RAPID_RESPONSE"
+        },
+        {
+          "sequence": 3,
+          "h3_cell": "8861892e93fffff",
+          "h3_index": "8861892e93fffff",
+          "police_station": "Shivajinagar",
+          "junction_name": "BTP211 - Central Street Junction",
+          "zone_id": "1",
+          "enforcement_priority_score": 0.3536,
+          "hotspot_tier": "CRITICAL",
+          "latitude": 12.984301,
+          "longitude": 77.603627,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 4,
+          "h3_cell": "8860145b4dfffff",
+          "h3_index": "8860145b4dfffff",
+          "police_station": "Shivajinagar",
+          "junction_name": "BTP042 - Minsk Square Junction (CTO)",
+          "zone_id": "1",
+          "enforcement_priority_score": 0.3295,
+          "hotspot_tier": "CRITICAL",
+          "latitude": 12.980864,
+          "longitude": 77.599187,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 5,
+          "h3_cell": "8860145b41fffff",
+          "h3_index": "8860145b41fffff",
+          "police_station": "Cubbon Park",
+          "junction_name": "BTP041 - Gopal Gowda Circle",
+          "zone_id": "1",
+          "enforcement_priority_score": 0.2645,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.97852,
+          "longitude": 77.590346,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 6,
+          "h3_cell": "8860145b47fffff",
+          "h3_index": "8860145b47fffff",
+          "police_station": "High ground",
+          "junction_name": "BTP035 - Basaweshwara Circle (LH) Junction",
+          "zone_id": "1",
+          "enforcement_priority_score": 0.2326,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.985447,
+          "longitude": 77.58649,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 7,
+          "h3_cell": "8860145b6bfffff",
+          "h3_index": "8860145b6bfffff",
+          "police_station": "High ground",
+          "junction_name": "BTP032 - Windsor Circle",
+          "zone_id": "1",
+          "enforcement_priority_score": 0.337,
+          "hotspot_tier": "CRITICAL",
+          "latitude": 12.992589,
+          "longitude": 77.589132,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 8,
+          "h3_cell": "8860145b0dfffff",
+          "h3_index": "8860145b0dfffff",
+          "police_station": "Sheshadripuram",
+          "junction_name": "BTP032 - Windsor Circle",
+          "zone_id": "1",
+          "enforcement_priority_score": 0.206,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.996432,
+          "longitude": 77.58367,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        }
+      ]
+    },
+    {
+      "officer_id": "OFFICER_03",
+      "route_id": "OFFICER_03",
+      "zone_id": "2",
+      "n_stops": 8,
+      "total_route_priority_score": 2.3821,
+      "estimated_route_distance_km": 4.93,
+      "enforcement_priority": "LOW",
+      "assigned_vehicle_type": "FOUR_WHEELER_PATROL",
+      "estimated_coverage_mins": 25,
+      "station_sequence": [
+        "Malleshwaram",
+        "Vijayanagara",
+        "Vijayanagara",
+        "Vijayanagara",
+        "Vijayanagara",
+        "Vijayanagara",
+        "Rajajinagar",
+        "Rajajinagar"
+      ],
+      "optimized_path_coordinates": [
+        [
+          12.999958,
+          77.550671
+        ],
+        [
+          12.996098,
+          77.549763
+        ],
+        [
+          12.998548,
+          77.544362
+        ],
+        [
+          12.993829,
+          77.539194
+        ],
+        [
+          12.987967,
+          77.537559
+        ],
+        [
+          12.986421,
+          77.546693
+        ],
+        [
+          12.986767,
+          77.552798
+        ],
+        [
+          12.992952,
+          77.555047
+        ]
+      ],
+      "priority_violations": 2382,
+      "route": [
+        {
+          "sequence": 1,
+          "h3_cell": "8860145b3bfffff",
+          "h3_index": "8860145b3bfffff",
+          "police_station": "Malleshwaram",
+          "junction_name": "BTP027 - Modi Bridge Junction",
+          "zone_id": "2",
+          "enforcement_priority_score": 0.4159,
+          "hotspot_tier": "CRITICAL",
+          "latitude": 12.999958,
+          "longitude": 77.550671,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 2,
+          "h3_cell": "8860145b17fffff",
+          "h3_index": "8860145b17fffff",
+          "police_station": "Vijayanagara",
+          "junction_name": "BTP027 - Modi Bridge Junction",
+          "zone_id": "2",
+          "enforcement_priority_score": 0.3238,
+          "hotspot_tier": "CRITICAL",
+          "latitude": 12.996098,
+          "longitude": 77.549763,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 3,
+          "h3_cell": "886014586dfffff",
+          "h3_index": "886014586dfffff",
+          "police_station": "Vijayanagara",
+          "junction_name": "BTP206 - Shankara Mutt Circle, Vijayanagar",
+          "zone_id": "2",
+          "enforcement_priority_score": 0.2763,
+          "hotspot_tier": "CRITICAL",
+          "latitude": 12.998548,
+          "longitude": 77.544362,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 4,
+          "h3_cell": "8860145869fffff",
+          "h3_index": "8860145869fffff",
+          "police_station": "Vijayanagara",
+          "junction_name": "BTP207 - 8th Main Road Basaveshwara Nagar",
+          "zone_id": "2",
+          "enforcement_priority_score": 0.2387,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.993829,
+          "longitude": 77.539194,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 5,
+          "h3_cell": "8860145845fffff",
+          "h3_index": "8860145845fffff",
+          "police_station": "Vijayanagara",
+          "junction_name": "BTP208 - Havanur Circle",
+          "zone_id": "2",
+          "enforcement_priority_score": 0.2559,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.987967,
+          "longitude": 77.537559,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 6,
+          "h3_cell": "8860145b13fffff",
+          "h3_index": "8860145b13fffff",
+          "police_station": "Vijayanagara",
+          "junction_name": "BTP024 - NPS, Vijayanagar",
+          "zone_id": "2",
+          "enforcement_priority_score": 0.2581,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.986421,
+          "longitude": 77.546693,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 7,
+          "h3_cell": "8860145b11fffff",
+          "h3_index": "8860145b11fffff",
+          "police_station": "Rajajinagar",
+          "junction_name": "BTP061 - Bhashyam Circle",
+          "zone_id": "2",
+          "enforcement_priority_score": 0.3078,
+          "hotspot_tier": "CRITICAL",
+          "latitude": 12.986767,
+          "longitude": 77.552798,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 8,
+          "h3_cell": "8860145b15fffff",
+          "h3_index": "8860145b15fffff",
+          "police_station": "Rajajinagar",
+          "junction_name": "BTP011 - RR Kalyana Mantapa, Dr. Rajkumar Road",
+          "zone_id": "2",
+          "enforcement_priority_score": 0.3056,
+          "hotspot_tier": "CRITICAL",
+          "latitude": 12.992952,
+          "longitude": 77.555047,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        }
+      ]
+    },
+    {
+      "officer_id": "OFFICER_04",
+      "route_id": "OFFICER_04",
+      "zone_id": "3",
+      "n_stops": 8,
+      "total_route_priority_score": 2.0531,
+      "estimated_route_distance_km": 5.51,
+      "enforcement_priority": "LOW",
+      "assigned_vehicle_type": "FOUR_WHEELER_PATROL",
+      "estimated_coverage_mins": 28,
+      "station_sequence": [
+        "Vijayanagara",
+        "Vijayanagara",
+        "Magadi Road",
+        "Magadi Road",
+        "Magadi Road",
+        "Magadi Road",
+        "Rajajinagar",
+        "Magadi Road"
+      ],
+      "optimized_path_coordinates": [
+        [
+          12.973769,
+          77.545336
+        ],
+        [
+          12.97688,
+          77.54734
+        ],
+        [
+          12.973607,
+          77.551054
+        ],
+        [
+          12.977689,
+          77.557744
+        ],
+        [
+          12.975394,
+          77.561036
+        ],
+        [
+          12.97854,
+          77.563471
+        ],
+        [
+          12.984451,
+          77.56052
+        ],
+        [
+          12.978602,
+          77.542153
+        ]
+      ],
+      "priority_violations": 2053,
+      "route": [
+        {
+          "sequence": 1,
+          "h3_cell": "8860145a27fffff",
+          "h3_index": "8860145a27fffff",
+          "police_station": "Vijayanagara",
+          "junction_name": "BTP020 - Hosahalli Metro Station",
+          "zone_id": "3",
+          "enforcement_priority_score": 0.3807,
+          "hotspot_tier": "CRITICAL",
+          "latitude": 12.973769,
+          "longitude": 77.545336,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 2,
+          "h3_cell": "8860145b1bfffff",
+          "h3_index": "8860145b1bfffff",
+          "police_station": "Vijayanagara",
+          "junction_name": "BTP069 - MC Circle",
+          "zone_id": "3",
+          "enforcement_priority_score": 0.2814,
+          "hotspot_tier": "CRITICAL",
+          "latitude": 12.97688,
+          "longitude": 77.54734,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 3,
+          "h3_cell": "8860145a25fffff",
+          "h3_index": "8860145a25fffff",
+          "police_station": "Magadi Road",
+          "junction_name": "BTP070 - Cholurpalya Junction, Magadi Road",
+          "zone_id": "3",
+          "enforcement_priority_score": 0.3024,
+          "hotspot_tier": "CRITICAL",
+          "latitude": 12.973607,
+          "longitude": 77.551054,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 4,
+          "h3_cell": "8860145b19fffff",
+          "h3_index": "8860145b19fffff",
+          "police_station": "Magadi Road",
+          "junction_name": "No Junction",
+          "zone_id": "3",
+          "enforcement_priority_score": 0.1775,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.977689,
+          "longitude": 77.557744,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 5,
+          "h3_cell": "8860145b53fffff",
+          "h3_index": "8860145b53fffff",
+          "police_station": "Magadi Road",
+          "junction_name": "BTP074 - Leprosy Hospital Junction",
+          "zone_id": "3",
+          "enforcement_priority_score": 0.2331,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.975394,
+          "longitude": 77.561036,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 6,
+          "h3_cell": "8860145b57fffff",
+          "h3_index": "8860145b57fffff",
+          "police_station": "Magadi Road",
+          "junction_name": "BTP074 - Leprosy Hospital Junction",
+          "zone_id": "3",
+          "enforcement_priority_score": 0.2156,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.97854,
+          "longitude": 77.563471,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 7,
+          "h3_cell": "8860145b1dfffff",
+          "h3_index": "8860145b1dfffff",
+          "police_station": "Rajajinagar",
+          "junction_name": "BTP010 - Rajajinagar Entrance",
+          "zone_id": "3",
+          "enforcement_priority_score": 0.2435,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.984451,
+          "longitude": 77.56052,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 8,
+          "h3_cell": "886014584dfffff",
+          "h3_index": "886014584dfffff",
+          "police_station": "Magadi Road",
+          "junction_name": "BTP067 - Jai Muni Rao Circle",
+          "zone_id": "3",
+          "enforcement_priority_score": 0.2189,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.978602,
+          "longitude": 77.542153,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        }
+      ]
+    },
+    {
+      "officer_id": "OFFICER_09",
+      "route_id": "OFFICER_09",
+      "zone_id": "6",
+      "n_stops": 8,
+      "total_route_priority_score": 1.5496,
+      "estimated_route_distance_km": 10.74,
+      "enforcement_priority": "LOW",
+      "assigned_vehicle_type": "FOUR_WHEELER_PATROL",
+      "estimated_coverage_mins": 54,
+      "station_sequence": [
+        "J.P. Nagar",
+        "J.P. Nagar",
+        "K.S. Layout",
+        "Jayanagara",
+        "J.P. Nagar",
+        "J.P. Nagar",
+        "J.P. Nagar",
+        "Thalagattapura"
+      ],
+      "optimized_path_coordinates": [
+        [
+          12.906062,
+          77.580305
+        ],
+        [
+          12.905952,
+          77.573321
+        ],
+        [
+          12.911302,
+          77.569425
+        ],
+        [
+          12.917183,
+          77.587052
+        ],
+        [
+          12.909663,
+          77.592848
+        ],
+        [
+          12.905278,
+          77.588267
+        ],
+        [
+          12.902841,
+          77.594931
+        ],
+        [
+          12.868228,
+          77.569702
+        ]
+      ],
+      "priority_violations": 1550,
+      "route": [
+        {
+          "sequence": 1,
+          "h3_cell": "88618924a9fffff",
+          "h3_index": "88618924a9fffff",
+          "police_station": "J.P. Nagar",
+          "junction_name": "BTP200 - 15th Cross, 33rd Main, JP Nagar",
+          "zone_id": "6",
+          "enforcement_priority_score": 0.2294,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.906062,
+          "longitude": 77.580305,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 2,
+          "h3_cell": "88618924abfffff",
+          "h3_index": "88618924abfffff",
+          "police_station": "J.P. Nagar",
+          "junction_name": "BTP159 - JP Nagar Metro, ORR",
+          "zone_id": "6",
+          "enforcement_priority_score": 0.212,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.905952,
+          "longitude": 77.573321,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 3,
+          "h3_cell": "88618924a3fffff",
+          "h3_index": "88618924a3fffff",
+          "police_station": "K.S. Layout",
+          "junction_name": "BTP157 - Kadirenahalli Cross",
+          "zone_id": "6",
+          "enforcement_priority_score": 0.2138,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.911302,
+          "longitude": 77.569425,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 4,
+          "h3_cell": "88618925d3fffff",
+          "h3_index": "88618925d3fffff",
+          "police_station": "Jayanagara",
+          "junction_name": "BTP177 - Aurobindo Circle, ORR",
+          "zone_id": "6",
+          "enforcement_priority_score": 0.2201,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.917183,
+          "longitude": 77.587052,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 5,
+          "h3_cell": "88618925dbfffff",
+          "h3_index": "88618925dbfffff",
+          "police_station": "J.P. Nagar",
+          "junction_name": "BTP198 - 9th Cross, 8th Main, JP Nagar",
+          "zone_id": "6",
+          "enforcement_priority_score": 0.1706,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.909663,
+          "longitude": 77.592848,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 6,
+          "h3_cell": "88618924e7fffff",
+          "h3_index": "88618924e7fffff",
+          "police_station": "J.P. Nagar",
+          "junction_name": "BTP221 - 15th Cross, 24th Main, JP Nagar",
+          "zone_id": "6",
+          "enforcement_priority_score": 0.2153,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.905278,
+          "longitude": 77.588267,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 7,
+          "h3_cell": "88618924e5fffff",
+          "h3_index": "88618924e5fffff",
+          "police_station": "J.P. Nagar",
+          "junction_name": "No Junction",
+          "zone_id": "6",
+          "enforcement_priority_score": 0.1369,
+          "hotspot_tier": "MEDIUM",
+          "latitude": 12.902841,
+          "longitude": 77.594931,
+          "recommended_vehicle": "TWO_WHEELER_PATROL"
+        },
+        {
+          "sequence": 8,
+          "h3_cell": "88618924d1fffff",
+          "h3_index": "88618924d1fffff",
+          "police_station": "Thalagattapura",
+          "junction_name": "No Junction",
+          "zone_id": "6",
+          "enforcement_priority_score": 0.1515,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.868228,
+          "longitude": 77.569702,
+          "recommended_vehicle": "TWO_WHEELER_PATROL"
+        }
+      ]
+    },
+    {
+      "officer_id": "OFFICER_15",
+      "route_id": "OFFICER_15",
+      "zone_id": "13",
+      "n_stops": 7,
+      "total_route_priority_score": 1.4573,
+      "estimated_route_distance_km": 4.56,
+      "enforcement_priority": "LOW",
+      "assigned_vehicle_type": "FOUR_WHEELER_PATROL",
+      "estimated_coverage_mins": 23,
+      "station_sequence": [
+        "Adugodi",
+        "Adugodi",
+        "Mico Layout",
+        "Mico Layout",
+        "Jayanagara",
+        "Mico Layout",
+        "Mico Layout"
+      ],
+      "optimized_path_coordinates": [
+        [
+          12.935304,
+          77.615238
+        ],
+        [
+          12.940044,
+          77.609759
+        ],
+        [
+          12.932676,
+          77.607174
+        ],
+        [
+          12.927366,
+          77.609443
+        ],
+        [
+          12.92716,
+          77.600062
+        ],
+        [
+          12.935966,
+          77.600718
+        ],
+        [
+          12.938055,
+          77.601881
+        ]
+      ],
+      "priority_violations": 1457,
+      "route": [
+        {
+          "sequence": 1,
+          "h3_cell": "88618925c7fffff",
+          "h3_index": "88618925c7fffff",
+          "police_station": "Adugodi",
+          "junction_name": "BTP135 - UCO Bank Junction",
+          "zone_id": "13",
+          "enforcement_priority_score": 0.2572,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.935304,
+          "longitude": 77.615238,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 2,
+          "h3_cell": "886189258dfffff",
+          "h3_index": "886189258dfffff",
+          "police_station": "Adugodi",
+          "junction_name": "BTP133 - Adugodi Junction",
+          "zone_id": "13",
+          "enforcement_priority_score": 0.2257,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.940044,
+          "longitude": 77.609759,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 3,
+          "h3_cell": "8861892589fffff",
+          "h3_index": "8861892589fffff",
+          "police_station": "Mico Layout",
+          "junction_name": "No Junction",
+          "zone_id": "13",
+          "enforcement_priority_score": 0.1945,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.932676,
+          "longitude": 77.607174,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 4,
+          "h3_cell": "88618925c3fffff",
+          "h3_index": "88618925c3fffff",
+          "police_station": "Mico Layout",
+          "junction_name": "No Junction",
+          "zone_id": "13",
+          "enforcement_priority_score": 0.1103,
+          "hotspot_tier": "MEDIUM",
+          "latitude": 12.927366,
+          "longitude": 77.609443,
+          "recommended_vehicle": "TWO_WHEELER_RAPID_RESPONSE"
+        },
+        {
+          "sequence": 5,
+          "h3_cell": "88618925d5fffff",
+          "h3_index": "88618925d5fffff",
+          "police_station": "Jayanagara",
+          "junction_name": "BTP127 - Sagar Hospital, Jayanagar",
+          "zone_id": "13",
+          "enforcement_priority_score": 0.2317,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.92716,
+          "longitude": 77.600062,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 6,
+          "h3_cell": "886189258bfffff",
+          "h3_index": "886189258bfffff",
+          "police_station": "Mico Layout",
+          "junction_name": "BTP126 - Dairy Circle",
+          "zone_id": "13",
+          "enforcement_priority_score": 0.2157,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.935966,
+          "longitude": 77.600718,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 7,
+          "h3_cell": "8861892581fffff",
+          "h3_index": "8861892581fffff",
+          "police_station": "Mico Layout",
+          "junction_name": "BTP126 - Dairy Circle",
+          "zone_id": "13",
+          "enforcement_priority_score": 0.2222,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.938055,
+          "longitude": 77.601881,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        }
+      ]
+    },
+    {
+      "officer_id": "OFFICER_06",
+      "route_id": "OFFICER_06",
+      "zone_id": "4",
+      "n_stops": 6,
+      "total_route_priority_score": 1.3882,
+      "estimated_route_distance_km": 5.56,
+      "enforcement_priority": "LOW",
+      "assigned_vehicle_type": "FOUR_WHEELER_PATROL",
+      "estimated_coverage_mins": 28,
+      "station_sequence": [
+        "Ashok Nagar",
+        "Ashok Nagar",
+        "Ashok Nagar",
+        "Ashok Nagar",
+        "Ashok Nagar",
+        "Cubbon Park"
+      ],
+      "optimized_path_coordinates": [
+        [
+          12.962343,
+          77.598379
+        ],
+        [
+          12.958235,
+          77.602512
+        ],
+        [
+          12.95083,
+          77.606882
+        ],
+        [
+          12.962209,
+          77.615306
+        ],
+        [
+          12.970897,
+          77.605098
+        ],
+        [
+          12.971083,
+          77.596418
+        ]
+      ],
+      "priority_violations": 1388,
+      "route": [
+        {
+          "sequence": 1,
+          "h3_cell": "88618925a3fffff",
+          "h3_index": "88618925a3fffff",
+          "police_station": "Ashok Nagar",
+          "junction_name": "BTP172 - Nanjappa Circle",
+          "zone_id": "4",
+          "enforcement_priority_score": 0.3,
+          "hotspot_tier": "CRITICAL",
+          "latitude": 12.962343,
+          "longitude": 77.598379,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 2,
+          "h3_cell": "88618925abfffff",
+          "h3_index": "88618925abfffff",
+          "police_station": "Ashok Nagar",
+          "junction_name": "BTP172 - Nanjappa Circle",
+          "zone_id": "4",
+          "enforcement_priority_score": 0.2223,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.958235,
+          "longitude": 77.602512,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 3,
+          "h3_cell": "8861892585fffff",
+          "h3_index": "8861892585fffff",
+          "police_station": "Ashok Nagar",
+          "junction_name": "BTP132 - Anepalya Junction",
+          "zone_id": "4",
+          "enforcement_priority_score": 0.2656,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.95083,
+          "longitude": 77.606882,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 4,
+          "h3_cell": "88618925adfffff",
+          "h3_index": "88618925adfffff",
+          "police_station": "Ashok Nagar",
+          "junction_name": "BTP142 - Lower Agram Road Junction",
+          "zone_id": "4",
+          "enforcement_priority_score": 0.2223,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.962209,
+          "longitude": 77.615306,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 5,
+          "h3_cell": "88618925a7fffff",
+          "h3_index": "88618925a7fffff",
+          "police_station": "Ashok Nagar",
+          "junction_name": "No Junction",
+          "zone_id": "4",
+          "enforcement_priority_score": 0.1164,
+          "hotspot_tier": "MEDIUM",
+          "latitude": 12.970897,
+          "longitude": 77.605098,
+          "recommended_vehicle": "TWO_WHEELER_RAPID_RESPONSE"
+        },
+        {
+          "sequence": 6,
+          "h3_cell": "8860145b49fffff",
+          "h3_index": "8860145b49fffff",
+          "police_station": "Cubbon Park",
+          "junction_name": "BTP063 - Siddalingaiah Circle",
+          "zone_id": "4",
+          "enforcement_priority_score": 0.2616,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.971083,
+          "longitude": 77.596418,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        }
+      ]
+    },
+    {
+      "officer_id": "OFFICER_17",
+      "route_id": "OFFICER_17",
+      "zone_id": "14",
+      "n_stops": 6,
+      "total_route_priority_score": 1.3866,
+      "estimated_route_distance_km": 4.8,
+      "enforcement_priority": "LOW",
+      "assigned_vehicle_type": "FOUR_WHEELER_PATROL",
+      "estimated_coverage_mins": 24,
+      "station_sequence": [
+        "Basavanagudi",
+        "Basavanagudi",
+        "Basavanagudi",
+        "Basavanagudi",
+        "Banashankari",
+        "Basavanagudi"
+      ],
+      "optimized_path_coordinates": [
+        [
+          12.94599,
+          77.57192
+        ],
+        [
+          12.942732,
+          77.570142
+        ],
+        [
+          12.946746,
+          77.567064
+        ],
+        [
+          12.939569,
+          77.57628
+        ],
+        [
+          12.933284,
+          77.573899
+        ],
+        [
+          12.948356,
+          77.580101
+        ]
+      ],
+      "priority_violations": 1387,
+      "route": [
+        {
+          "sequence": 1,
+          "h3_cell": "8860145a6dfffff",
+          "h3_index": "8860145a6dfffff",
+          "police_station": "Basavanagudi",
+          "junction_name": "BTP108 - Tagore Park Junction",
+          "zone_id": "14",
+          "enforcement_priority_score": 0.2463,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.94599,
+          "longitude": 77.57192,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 2,
+          "h3_cell": "8860145a69fffff",
+          "h3_index": "8860145a69fffff",
+          "police_station": "Basavanagudi",
+          "junction_name": "BTP108 - Tagore Park Junction",
+          "zone_id": "14",
+          "enforcement_priority_score": 0.2248,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.942732,
+          "longitude": 77.570142,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 3,
+          "h3_cell": "8860145a61fffff",
+          "h3_index": "8860145a61fffff",
+          "police_station": "Basavanagudi",
+          "junction_name": "BTP215 - Vanivillas Junction",
+          "zone_id": "14",
+          "enforcement_priority_score": 0.2099,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.946746,
+          "longitude": 77.567064,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 4,
+          "h3_cell": "8861892597fffff",
+          "h3_index": "8861892597fffff",
+          "police_station": "Basavanagudi",
+          "junction_name": "BTP216 - Yediyur Junction",
+          "zone_id": "14",
+          "enforcement_priority_score": 0.2374,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.939569,
+          "longitude": 77.57628,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 5,
+          "h3_cell": "8861892593fffff",
+          "h3_index": "8861892593fffff",
+          "police_station": "Banashankari",
+          "junction_name": "BTP112 - 14th Cross, KR Road",
+          "zone_id": "14",
+          "enforcement_priority_score": 0.245,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.933284,
+          "longitude": 77.573899,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 6,
+          "h3_cell": "88618925bbfffff",
+          "h3_index": "88618925bbfffff",
+          "police_station": "Basavanagudi",
+          "junction_name": "BTP184 - Lalbagh West Gate",
+          "zone_id": "14",
+          "enforcement_priority_score": 0.2232,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.948356,
+          "longitude": 77.580101,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        }
+      ]
+    },
+    {
+      "officer_id": "OFFICER_07",
+      "route_id": "OFFICER_07",
+      "zone_id": "5",
+      "n_stops": 7,
+      "total_route_priority_score": 1.3216,
+      "estimated_route_distance_km": 6.68,
+      "enforcement_priority": "LOW",
+      "assigned_vehicle_type": "FOUR_WHEELER_PATROL",
+      "estimated_coverage_mins": 33,
+      "station_sequence": [
+        "Byatarayanapura",
+        "Byatarayanapura",
+        "Byatarayanapura",
+        "Byatarayanapura",
+        "Byatarayanapura",
+        "Jnanabharathi",
+        "Jnanabharathi"
+      ],
+      "optimized_path_coordinates": [
+        [
+          12.953842,
+          77.543271
+        ],
+        [
+          12.951949,
+          77.540431
+        ],
+        [
+          12.956446,
+          77.536119
+        ],
+        [
+          12.947185,
+          77.532185
+        ],
+        [
+          12.949894,
+          77.52249
+        ],
+        [
+          12.961931,
+          77.498255
+        ],
+        [
+          12.958585,
+          77.495605
+        ]
+      ],
+      "priority_violations": 1322,
+      "route": [
+        {
+          "sequence": 1,
+          "h3_cell": "8860145a2bfffff",
+          "h3_index": "8860145a2bfffff",
+          "police_station": "Byatarayanapura",
+          "junction_name": "BTP095 - Satellite Bus Stand, Mysore Road",
+          "zone_id": "5",
+          "enforcement_priority_score": 0.2932,
+          "hotspot_tier": "CRITICAL",
+          "latitude": 12.953842,
+          "longitude": 77.543271,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 2,
+          "h3_cell": "8860145a07fffff",
+          "h3_index": "8860145a07fffff",
+          "police_station": "Byatarayanapura",
+          "junction_name": "BTP096 - Gali Anjaneya Temple",
+          "zone_id": "5",
+          "enforcement_priority_score": 0.2558,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.951949,
+          "longitude": 77.540431,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 3,
+          "h3_cell": "8860145a3dfffff",
+          "h3_index": "8860145a3dfffff",
+          "police_station": "Byatarayanapura",
+          "junction_name": "BTP017 - Attiguppe Circle",
+          "zone_id": "5",
+          "enforcement_priority_score": 0.2235,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.956446,
+          "longitude": 77.536119,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 4,
+          "h3_cell": "8860145a39fffff",
+          "h3_index": "8860145a39fffff",
+          "police_station": "Byatarayanapura",
+          "junction_name": "No Junction",
+          "zone_id": "5",
+          "enforcement_priority_score": 0.1276,
+          "hotspot_tier": "MEDIUM",
+          "latitude": 12.947185,
+          "longitude": 77.532185,
+          "recommended_vehicle": "TWO_WHEELER_RAPID_RESPONSE"
+        },
+        {
+          "sequence": 5,
+          "h3_cell": "8860145a3bfffff",
+          "h3_index": "8860145a3bfffff",
+          "police_station": "Byatarayanapura",
+          "junction_name": "No Junction",
+          "zone_id": "5",
+          "enforcement_priority_score": 0.1199,
+          "hotspot_tier": "MEDIUM",
+          "latitude": 12.949894,
+          "longitude": 77.52249,
+          "recommended_vehicle": "TWO_WHEELER_RAPID_RESPONSE"
+        },
+        {
+          "sequence": 6,
+          "h3_cell": "8860145aadfffff",
+          "h3_index": "8860145aadfffff",
+          "police_station": "Jnanabharathi",
+          "junction_name": "No Junction",
+          "zone_id": "5",
+          "enforcement_priority_score": 0.1516,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.961931,
+          "longitude": 77.498255,
+          "recommended_vehicle": "TWO_WHEELER_PATROL"
+        },
+        {
+          "sequence": 7,
+          "h3_cell": "8860145aa9fffff",
+          "h3_index": "8860145aa9fffff",
+          "police_station": "Jnanabharathi",
+          "junction_name": "No Junction",
+          "zone_id": "5",
+          "enforcement_priority_score": 0.15,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.958585,
+          "longitude": 77.495605,
+          "recommended_vehicle": "TWO_WHEELER_PATROL"
+        }
+      ]
+    },
+    {
+      "officer_id": "OFFICER_11",
+      "route_id": "OFFICER_11",
+      "zone_id": "8",
+      "n_stops": 6,
+      "total_route_priority_score": 1.2918,
+      "estimated_route_distance_km": 4.31,
+      "enforcement_priority": "LOW",
+      "assigned_vehicle_type": "FOUR_WHEELER_PATROL",
+      "estimated_coverage_mins": 22,
+      "station_sequence": [
+        "Chamarajpet",
+        "Magadi Road",
+        "Chamarajpet",
+        "Chamarajpet",
+        "V.V.Puram (C.Pet)",
+        "Chamarajpet"
+      ],
+      "optimized_path_coordinates": [
+        [
+          12.957942,
+          77.553582
+        ],
+        [
+          12.963859,
+          77.555407
+        ],
+        [
+          12.959114,
+          77.560109
+        ],
+        [
+          12.962073,
+          77.564441
+        ],
+        [
+          12.957132,
+          77.569189
+        ],
+        [
+          12.971216,
+          77.568986
+        ]
+      ],
+      "priority_violations": 1292,
+      "route": [
+        {
+          "sequence": 1,
+          "h3_cell": "8860145a29fffff",
+          "h3_index": "8860145a29fffff",
+          "police_station": "Chamarajpet",
+          "junction_name": "BTP093 - Toll Gate, Mysore Road",
+          "zone_id": "8",
+          "enforcement_priority_score": 0.2716,
+          "hotspot_tier": "CRITICAL",
+          "latitude": 12.957942,
+          "longitude": 77.553582,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 2,
+          "h3_cell": "8860145a2dfffff",
+          "h3_index": "8860145a2dfffff",
+          "police_station": "Magadi Road",
+          "junction_name": "No Junction",
+          "zone_id": "8",
+          "enforcement_priority_score": 0.1179,
+          "hotspot_tier": "MEDIUM",
+          "latitude": 12.963859,
+          "longitude": 77.555407,
+          "recommended_vehicle": "TWO_WHEELER_RAPID_RESPONSE"
+        },
+        {
+          "sequence": 3,
+          "h3_cell": "8860145a67fffff",
+          "h3_index": "8860145a67fffff",
+          "police_station": "Chamarajpet",
+          "junction_name": "BTP091 - Sirsi Circle",
+          "zone_id": "8",
+          "enforcement_priority_score": 0.2265,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.959114,
+          "longitude": 77.560109,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 4,
+          "h3_cell": "8860145b5bfffff",
+          "h3_index": "8860145b5bfffff",
+          "police_station": "Chamarajpet",
+          "junction_name": "BTP089 - Police Quarters, Sultan Road",
+          "zone_id": "8",
+          "enforcement_priority_score": 0.2482,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.962073,
+          "longitude": 77.564441,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 5,
+          "h3_cell": "8860145a65fffff",
+          "h3_index": "8860145a65fffff",
+          "police_station": "V.V.Puram (C.Pet)",
+          "junction_name": "BTP214 - 5th Main Chamrajpet  Junction",
+          "zone_id": "8",
+          "enforcement_priority_score": 0.2301,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.957132,
+          "longitude": 77.569189,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 6,
+          "h3_cell": "8860145b51fffff",
+          "h3_index": "8860145b51fffff",
+          "police_station": "Chamarajpet",
+          "junction_name": "BTP048 - Shanthala Junction",
+          "zone_id": "8",
+          "enforcement_priority_score": 0.1975,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.971216,
+          "longitude": 77.568986,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        }
+      ]
+    },
+    {
+      "officer_id": "OFFICER_14",
+      "route_id": "OFFICER_14",
+      "zone_id": "12",
+      "n_stops": 6,
+      "total_route_priority_score": 1.2678,
+      "estimated_route_distance_km": 4.23,
+      "enforcement_priority": "LOW",
+      "assigned_vehicle_type": "FOUR_WHEELER_PATROL",
+      "estimated_coverage_mins": 21,
+      "station_sequence": [
+        "Jayanagara",
+        "Jayanagara",
+        "Jayanagara",
+        "Jayanagara",
+        "Wilson Garden",
+        "Jayanagara"
+      ],
+      "optimized_path_coordinates": [
+        [
+          12.927575,
+          77.580026
+        ],
+        [
+          12.931425,
+          77.582411
+        ],
+        [
+          12.92719,
+          77.584778
+        ],
+        [
+          12.931694,
+          77.587632
+        ],
+        [
+          12.939014,
+          77.58459
+        ],
+        [
+          12.927589,
+          77.595407
+        ]
+      ],
+      "priority_violations": 1268,
+      "route": [
+        {
+          "sequence": 1,
+          "h3_cell": "886189259bfffff",
+          "h3_index": "886189259bfffff",
+          "police_station": "Jayanagara",
+          "junction_name": "BTP189 - New Diagonal Road, Jayanagar",
+          "zone_id": "12",
+          "enforcement_priority_score": 0.2611,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.927575,
+          "longitude": 77.580026,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 2,
+          "h3_cell": "8861892591fffff",
+          "h3_index": "8861892591fffff",
+          "police_station": "Jayanagara",
+          "junction_name": "BTP188 - 27th Cross, 4th Main, Jayanagar",
+          "zone_id": "12",
+          "enforcement_priority_score": 0.2434,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.931425,
+          "longitude": 77.582411,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 3,
+          "h3_cell": "8861892599fffff",
+          "h3_index": "8861892599fffff",
+          "police_station": "Jayanagara",
+          "junction_name": "BTP226 - 33rd Cross, 11th Main, Jayanagar",
+          "zone_id": "12",
+          "enforcement_priority_score": 0.2442,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.92719,
+          "longitude": 77.584778,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 4,
+          "h3_cell": "886189259dfffff",
+          "h3_index": "886189259dfffff",
+          "police_station": "Jayanagara",
+          "junction_name": "BTP219 - Canara Bank Junction",
+          "zone_id": "12",
+          "enforcement_priority_score": 0.1701,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.931694,
+          "longitude": 77.587632,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 5,
+          "h3_cell": "8861892595fffff",
+          "h3_index": "8861892595fffff",
+          "police_station": "Wilson Garden",
+          "junction_name": "BTP186 - 9th Cross, 4th Main, Jayanagar",
+          "zone_id": "12",
+          "enforcement_priority_score": 0.1801,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.939014,
+          "longitude": 77.58459,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 6,
+          "h3_cell": "88618925d7fffff",
+          "h3_index": "88618925d7fffff",
+          "police_station": "Jayanagara",
+          "junction_name": "BTP127 - Sagar Hospital, Jayanagar",
+          "zone_id": "12",
+          "enforcement_priority_score": 0.1689,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.927589,
+          "longitude": 77.595407,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        }
+      ]
+    },
+    {
+      "officer_id": "OFFICER_05",
+      "route_id": "OFFICER_05",
+      "zone_id": "10",
+      "n_stops": 5,
+      "total_route_priority_score": 1.222,
+      "estimated_route_distance_km": 9.0,
+      "enforcement_priority": "LOW",
+      "assigned_vehicle_type": "TWO_WHEELER_RAPID_RESPONSE",
+      "estimated_coverage_mins": 45,
+      "station_sequence": [
+        "HAL Old Airport",
+        "Halasur",
+        "Halasur",
+        "Jeevanbheemanagar",
+        "Halasur"
+      ],
+      "optimized_path_coordinates": [
+        [
+          12.933738,
+          77.690806
+        ],
+        [
+          12.958895,
+          77.638336
+        ],
+        [
+          12.961321,
+          77.635622
+        ],
+        [
+          12.963531,
+          77.640807
+        ],
+        [
+          12.965849,
+          77.625744
+        ]
+      ],
+      "priority_violations": 1222,
+      "route": [
+        {
+          "sequence": 1,
+          "h3_cell": "8861892093fffff",
+          "h3_index": "8861892093fffff",
+          "police_station": "HAL Old Airport",
+          "junction_name": "No Junction",
+          "zone_id": "10",
+          "enforcement_priority_score": 0.3367,
+          "hotspot_tier": "CRITICAL",
+          "latitude": 12.933738,
+          "longitude": 77.690806,
+          "recommended_vehicle": "TWO_WHEELER_RAPID_RESPONSE"
+        },
+        {
+          "sequence": 2,
+          "h3_cell": "8861892533fffff",
+          "h3_index": "8861892533fffff",
+          "police_station": "Halasur",
+          "junction_name": "BTP146 - Domlur Water Tank",
+          "zone_id": "10",
+          "enforcement_priority_score": 0.1798,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.958895,
+          "longitude": 77.638336,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 3,
+          "h3_cell": "8861892ed9fffff",
+          "h3_index": "8861892ed9fffff",
+          "police_station": "Halasur",
+          "junction_name": "BTP145 - Sri Hatti Maramma Circle, Domluru",
+          "zone_id": "10",
+          "enforcement_priority_score": 0.2375,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.961321,
+          "longitude": 77.635622,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 4,
+          "h3_cell": "8861892537fffff",
+          "h3_index": "8861892537fffff",
+          "police_station": "Jeevanbheemanagar",
+          "junction_name": "BTP148 - 17th Main, Doopanahalli Bus Stop",
+          "zone_id": "10",
+          "enforcement_priority_score": 0.268,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.963531,
+          "longitude": 77.640807,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 5,
+          "h3_cell": "8861892edbfffff",
+          "h3_index": "8861892edbfffff",
+          "police_station": "Halasur",
+          "junction_name": "BTP144 - Commando Hospital Junction",
+          "zone_id": "10",
+          "enforcement_priority_score": 0.2,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.965849,
+          "longitude": 77.625744,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        }
+      ]
+    },
+    {
+      "officer_id": "OFFICER_16",
+      "route_id": "OFFICER_16",
+      "zone_id": "17",
+      "n_stops": 6,
+      "total_route_priority_score": 1.1836,
+      "estimated_route_distance_km": 3.52,
+      "enforcement_priority": "LOW",
+      "assigned_vehicle_type": "FOUR_WHEELER_PATROL",
+      "estimated_coverage_mins": 18,
+      "station_sequence": [
+        "Jayanagara",
+        "Mico Layout",
+        "Mico Layout",
+        "Mico Layout",
+        "Mico Layout",
+        "Mico Layout"
+      ],
+      "optimized_path_coordinates": [
+        [
+          12.917738,
+          77.596995
+        ],
+        [
+          12.909693,
+          77.601916
+        ],
+        [
+          12.905703,
+          77.602618
+        ],
+        [
+          12.913598,
+          77.607987
+        ],
+        [
+          12.916603,
+          77.608021
+        ],
+        [
+          12.917082,
+          77.613892
+        ]
+      ],
+      "priority_violations": 1184,
+      "route": [
+        {
+          "sequence": 1,
+          "h3_cell": "88618925d1fffff",
+          "h3_index": "88618925d1fffff",
+          "police_station": "Jayanagara",
+          "junction_name": "BTP202 - East End Main Road, Jayanagar",
+          "zone_id": "17",
+          "enforcement_priority_score": 0.2474,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.917738,
+          "longitude": 77.596995,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 2,
+          "h3_cell": "88618925d9fffff",
+          "h3_index": "88618925d9fffff",
+          "police_station": "Mico Layout",
+          "junction_name": "BTP130 - GD Mara Junction",
+          "zone_id": "17",
+          "enforcement_priority_score": 0.1967,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.909693,
+          "longitude": 77.601916,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 3,
+          "h3_cell": "8861892433fffff",
+          "h3_index": "8861892433fffff",
+          "police_station": "Mico Layout",
+          "junction_name": "BTP130 - GD Mara Junction",
+          "zone_id": "17",
+          "enforcement_priority_score": 0.1887,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.905703,
+          "longitude": 77.602618,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 4,
+          "h3_cell": "8861892437fffff",
+          "h3_index": "8861892437fffff",
+          "police_station": "Mico Layout",
+          "junction_name": "BTP163 - 16th Main Road, BTM Layout",
+          "zone_id": "17",
+          "enforcement_priority_score": 0.1973,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.913598,
+          "longitude": 77.607987,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 5,
+          "h3_cell": "88618925ddfffff",
+          "h3_index": "88618925ddfffff",
+          "police_station": "Mico Layout",
+          "junction_name": "No Junction",
+          "zone_id": "17",
+          "enforcement_priority_score": 0.1276,
+          "hotspot_tier": "MEDIUM",
+          "latitude": 12.916603,
+          "longitude": 77.608021,
+          "recommended_vehicle": "TWO_WHEELER_RAPID_RESPONSE"
+        },
+        {
+          "sequence": 6,
+          "h3_cell": "88618925cbfffff",
+          "h3_index": "88618925cbfffff",
+          "police_station": "Mico Layout",
+          "junction_name": "BTP164 - 29th Main Road, BTM Layout",
+          "zone_id": "17",
+          "enforcement_priority_score": 0.2259,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.917082,
+          "longitude": 77.613892,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        }
+      ]
+    },
+    {
+      "officer_id": "OFFICER_18",
+      "route_id": "OFFICER_18",
+      "zone_id": "16",
+      "n_stops": 5,
+      "total_route_priority_score": 1.0536,
+      "estimated_route_distance_km": 3.32,
+      "enforcement_priority": "LOW",
+      "assigned_vehicle_type": "FOUR_WHEELER_PATROL",
+      "estimated_coverage_mins": 17,
+      "station_sequence": [
+        "Banashankari",
+        "Banashankari",
+        "Banashankari",
+        "Banashankari",
+        "Banashankari"
+      ],
+      "optimized_path_coordinates": [
+        [
+          12.926662,
+          77.550791
+        ],
+        [
+          12.928343,
+          77.546086
+        ],
+        [
+          12.931199,
+          77.544893
+        ],
+        [
+          12.919869,
+          77.558835
+        ],
+        [
+          12.923216,
+          77.561491
+        ]
+      ],
+      "priority_violations": 1054,
+      "route": [
+        {
+          "sequence": 1,
+          "h3_cell": "8860145a43fffff",
+          "h3_index": "8860145a43fffff",
+          "police_station": "Banashankari",
+          "junction_name": "BTP155 - Katriguppe Junction",
+          "zone_id": "16",
+          "enforcement_priority_score": 0.2278,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.926662,
+          "longitude": 77.550791,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 2,
+          "h3_cell": "8860145a55fffff",
+          "h3_index": "8860145a55fffff",
+          "police_station": "Banashankari",
+          "junction_name": "BTP154 - Itmadu Junction",
+          "zone_id": "16",
+          "enforcement_priority_score": 0.2,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.928343,
+          "longitude": 77.546086,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 3,
+          "h3_cell": "8860145a09fffff",
+          "h3_index": "8860145a09fffff",
+          "police_station": "Banashankari",
+          "junction_name": "BTP154 - Itmadu Junction",
+          "zone_id": "16",
+          "enforcement_priority_score": 0.2011,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.931199,
+          "longitude": 77.544893,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 4,
+          "h3_cell": "8860145a4bfffff",
+          "h3_index": "8860145a4bfffff",
+          "police_station": "Banashankari",
+          "junction_name": "BTP158 - Devegowda Petrol Bunk",
+          "zone_id": "16",
+          "enforcement_priority_score": 0.2029,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.919869,
+          "longitude": 77.558835,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 5,
+          "h3_cell": "8860145a41fffff",
+          "h3_index": "8860145a41fffff",
+          "police_station": "Banashankari",
+          "junction_name": "BTP158 - Devegowda Petrol Bunk",
+          "zone_id": "16",
+          "enforcement_priority_score": 0.2218,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.923216,
+          "longitude": 77.561491,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        }
+      ]
+    },
+    {
+      "officer_id": "OFFICER_10",
+      "route_id": "OFFICER_10",
+      "zone_id": "7",
+      "n_stops": 5,
+      "total_route_priority_score": 1.0345,
+      "estimated_route_distance_km": 3.46,
+      "enforcement_priority": "LOW",
+      "assigned_vehicle_type": "FOUR_WHEELER_PATROL",
+      "estimated_coverage_mins": 17,
+      "station_sequence": [
+        "Vijayanagara",
+        "Vijayanagara",
+        "Byatarayanapura",
+        "Vijayanagara",
+        "Vijayanagara"
+      ],
+      "optimized_path_coordinates": [
+        [
+          12.970001,
+          77.537072
+        ],
+        [
+          12.964922,
+          77.538865
+        ],
+        [
+          12.962108,
+          77.530107
+        ],
+        [
+          12.973012,
+          77.528631
+        ],
+        [
+          12.977727,
+          77.531949
+        ]
+      ],
+      "priority_violations": 1034,
+      "route": [
+        {
+          "sequence": 1,
+          "h3_cell": "8860145849fffff",
+          "h3_index": "8860145849fffff",
+          "police_station": "Vijayanagara",
+          "junction_name": "BTP022 - Marenahalli Junction, Vijayanagar",
+          "zone_id": "7",
+          "enforcement_priority_score": 0.2789,
+          "hotspot_tier": "CRITICAL",
+          "latitude": 12.970001,
+          "longitude": 77.537072,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 2,
+          "h3_cell": "8860145a23fffff",
+          "h3_index": "8860145a23fffff",
+          "police_station": "Vijayanagara",
+          "junction_name": "BTP016 - 5th Main Road, RPC Layout",
+          "zone_id": "7",
+          "enforcement_priority_score": 0.2682,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.964922,
+          "longitude": 77.538865,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 3,
+          "h3_cell": "8860145a35fffff",
+          "h3_index": "8860145a35fffff",
+          "police_station": "Byatarayanapura",
+          "junction_name": "No Junction",
+          "zone_id": "7",
+          "enforcement_priority_score": 0.1931,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.962108,
+          "longitude": 77.530107,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 4,
+          "h3_cell": "886014584bfffff",
+          "h3_index": "886014584bfffff",
+          "police_station": "Vijayanagara",
+          "junction_name": "BTP214 - 5th Main Chamrajpet  Junction",
+          "zone_id": "7",
+          "enforcement_priority_score": 0.1407,
+          "hotspot_tier": "MEDIUM",
+          "latitude": 12.973012,
+          "longitude": 77.528631,
+          "recommended_vehicle": "TWO_WHEELER_PATROL"
+        },
+        {
+          "sequence": 5,
+          "h3_cell": "8860145841fffff",
+          "h3_index": "8860145841fffff",
+          "police_station": "Vijayanagara",
+          "junction_name": "BTP214 - 5th Main Chamrajpet  Junction",
+          "zone_id": "7",
+          "enforcement_priority_score": 0.1536,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.977727,
+          "longitude": 77.531949,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        }
+      ]
+    },
+    {
+      "officer_id": "OFFICER_08",
+      "route_id": "OFFICER_08",
+      "zone_id": "6",
+      "n_stops": 4,
+      "total_route_priority_score": 0.9953,
+      "estimated_route_distance_km": 2.44,
+      "enforcement_priority": "LOW",
+      "assigned_vehicle_type": "FOUR_WHEELER_PATROL",
+      "estimated_coverage_mins": 12,
+      "station_sequence": [
+        "J.P. Nagar",
+        "Banashankari",
+        "Jayanagara",
+        "J.P. Nagar"
+      ],
+      "optimized_path_coordinates": [
+        [
+          12.911167,
+          77.574947
+        ],
+        [
+          12.917119,
+          77.573563
+        ],
+        [
+          12.919217,
+          77.580411
+        ],
+        [
+          12.912053,
+          77.585699
+        ]
+      ],
+      "priority_violations": 995,
+      "route": [
+        {
+          "sequence": 1,
+          "h3_cell": "88618924a1fffff",
+          "h3_index": "88618924a1fffff",
+          "police_station": "J.P. Nagar",
+          "junction_name": "BTP117 - 9th Cross, Kanakapura Road",
+          "zone_id": "6",
+          "enforcement_priority_score": 0.2891,
+          "hotspot_tier": "CRITICAL",
+          "latitude": 12.911167,
+          "longitude": 77.574947,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 2,
+          "h3_cell": "88618924a7fffff",
+          "h3_index": "88618924a7fffff",
+          "police_station": "Banashankari",
+          "junction_name": "BTP115 - Sahasra Hospital, Jayanagar",
+          "zone_id": "6",
+          "enforcement_priority_score": 0.2352,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.917119,
+          "longitude": 77.573563,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 3,
+          "h3_cell": "88618924a5fffff",
+          "h3_index": "88618924a5fffff",
+          "police_station": "Jayanagara",
+          "junction_name": "BTP176 - Rajalakshmi Kalyana Mantapa, JP Nagar",
+          "zone_id": "6",
+          "enforcement_priority_score": 0.232,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.919217,
+          "longitude": 77.580411,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 4,
+          "h3_cell": "88618924adfffff",
+          "h3_index": "88618924adfffff",
+          "police_station": "J.P. Nagar",
+          "junction_name": "BTP197 - 9th Cross, 24th Main, JP Nagar",
+          "zone_id": "6",
+          "enforcement_priority_score": 0.239,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.912053,
+          "longitude": 77.585699,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        }
+      ]
+    },
+    {
+      "officer_id": "OFFICER_12",
+      "route_id": "OFFICER_12",
+      "zone_id": "9",
+      "n_stops": 6,
+      "total_route_priority_score": 0.9703,
+      "estimated_route_distance_km": 12.95,
+      "enforcement_priority": "LOW",
+      "assigned_vehicle_type": "TWO_WHEELER_RAPID_RESPONSE",
+      "estimated_coverage_mins": 65,
+      "station_sequence": [
+        "Malleshwaram",
+        "Malleshwaram",
+        "Malleshwaram",
+        "Peenya",
+        "Jalahalli",
+        "Kodigehalli"
+      ],
+      "optimized_path_coordinates": [
+        [
+          13.009362,
+          77.554804
+        ],
+        [
+          13.012738,
+          77.55355
+        ],
+        [
+          13.009304,
+          77.549573
+        ],
+        [
+          13.025116,
+          77.52047
+        ],
+        [
+          13.050495,
+          77.525531
+        ],
+        [
+          13.047499,
+          77.57609
+        ]
+      ],
+      "priority_violations": 970,
+      "route": [
+        {
+          "sequence": 1,
+          "h3_cell": "8860145b31fffff",
+          "h3_index": "8860145b31fffff",
+          "police_station": "Malleshwaram",
+          "junction_name": "No Junction",
+          "zone_id": "9",
+          "enforcement_priority_score": 0.2695,
+          "hotspot_tier": "HIGH",
+          "latitude": 13.009362,
+          "longitude": 77.554804,
+          "recommended_vehicle": "TWO_WHEELER_RAPID_RESPONSE"
+        },
+        {
+          "sequence": 2,
+          "h3_cell": "8860145b37fffff",
+          "h3_index": "8860145b37fffff",
+          "police_station": "Malleshwaram",
+          "junction_name": "No Junction",
+          "zone_id": "9",
+          "enforcement_priority_score": 0.1272,
+          "hotspot_tier": "MEDIUM",
+          "latitude": 13.012738,
+          "longitude": 77.55355,
+          "recommended_vehicle": "TWO_WHEELER_RAPID_RESPONSE"
+        },
+        {
+          "sequence": 3,
+          "h3_cell": "8860145b33fffff",
+          "h3_index": "8860145b33fffff",
+          "police_station": "Malleshwaram",
+          "junction_name": "BTP023 - Mahalaxmi Layout Entrance",
+          "zone_id": "9",
+          "enforcement_priority_score": 0.2624,
+          "hotspot_tier": "HIGH",
+          "latitude": 13.009304,
+          "longitude": 77.549573,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 4,
+          "h3_cell": "8860145825fffff",
+          "h3_index": "8860145825fffff",
+          "police_station": "Peenya",
+          "junction_name": "No Junction",
+          "zone_id": "9",
+          "enforcement_priority_score": 0.1062,
+          "hotspot_tier": "MEDIUM",
+          "latitude": 13.025116,
+          "longitude": 77.52047,
+          "recommended_vehicle": "TWO_WHEELER_PATROL"
+        },
+        {
+          "sequence": 5,
+          "h3_cell": "886014593bfffff",
+          "h3_index": "886014593bfffff",
+          "police_station": "Jalahalli",
+          "junction_name": "No Junction",
+          "zone_id": "9",
+          "enforcement_priority_score": 0.0994,
+          "hotspot_tier": "MEDIUM",
+          "latitude": 13.050495,
+          "longitude": 77.525531,
+          "recommended_vehicle": "TWO_WHEELER_RAPID_RESPONSE"
+        },
+        {
+          "sequence": 6,
+          "h3_cell": "8861892c97fffff",
+          "h3_index": "8861892c97fffff",
+          "police_station": "Kodigehalli",
+          "junction_name": "No Junction",
+          "zone_id": "9",
+          "enforcement_priority_score": 0.1056,
+          "hotspot_tier": "MEDIUM",
+          "latitude": 13.047499,
+          "longitude": 77.57609,
+          "recommended_vehicle": "TWO_WHEELER_RAPID_RESPONSE"
+        }
+      ]
+    },
+    {
+      "officer_id": "OFFICER_19",
+      "route_id": "OFFICER_19",
+      "zone_id": "21",
+      "n_stops": 5,
+      "total_route_priority_score": 0.741,
+      "estimated_route_distance_km": 6.79,
+      "enforcement_priority": "LOW",
+      "assigned_vehicle_type": "TWO_WHEELER_RAPID_RESPONSE",
+      "estimated_coverage_mins": 34,
+      "station_sequence": [
+        "K.R. Pura",
+        "Mahadevapura",
+        "Mahadevapura",
+        "Mahadevapura",
+        "K.R. Pura"
+      ],
+      "optimized_path_coordinates": [
+        [
+          13.008238,
+          77.69488
+        ],
+        [
+          12.998287,
+          77.693134
+        ],
+        [
+          12.987565,
+          77.689548
+        ],
+        [
+          13.000368,
+          77.677048
+        ],
+        [
+          13.020757,
+          77.685539
+        ]
+      ],
+      "priority_violations": 741,
+      "route": [
+        {
+          "sequence": 1,
+          "h3_cell": "8861892e2bfffff",
+          "h3_index": "8861892e2bfffff",
+          "police_station": "K.R. Pura",
+          "junction_name": "No Junction",
+          "zone_id": "21",
+          "enforcement_priority_score": 0.2037,
+          "hotspot_tier": "HIGH",
+          "latitude": 13.008238,
+          "longitude": 77.69488,
+          "recommended_vehicle": "TWO_WHEELER_RAPID_RESPONSE"
+        },
+        {
+          "sequence": 2,
+          "h3_cell": "8861892e05fffff",
+          "h3_index": "8861892e05fffff",
+          "police_station": "Mahadevapura",
+          "junction_name": "No Junction",
+          "zone_id": "21",
+          "enforcement_priority_score": 0.14,
+          "hotspot_tier": "MEDIUM",
+          "latitude": 12.998287,
+          "longitude": 77.693134,
+          "recommended_vehicle": "TWO_WHEELER_PATROL"
+        },
+        {
+          "sequence": 3,
+          "h3_cell": "8861892e0bfffff",
+          "h3_index": "8861892e0bfffff",
+          "police_station": "Mahadevapura",
+          "junction_name": "No Junction",
+          "zone_id": "21",
+          "enforcement_priority_score": 0.1209,
+          "hotspot_tier": "MEDIUM",
+          "latitude": 12.987565,
+          "longitude": 77.689548,
+          "recommended_vehicle": "TWO_WHEELER_PATROL"
+        },
+        {
+          "sequence": 4,
+          "h3_cell": "8861892e39fffff",
+          "h3_index": "8861892e39fffff",
+          "police_station": "Mahadevapura",
+          "junction_name": "No Junction",
+          "zone_id": "21",
+          "enforcement_priority_score": 0.1264,
+          "hotspot_tier": "MEDIUM",
+          "latitude": 13.000368,
+          "longitude": 77.677048,
+          "recommended_vehicle": "TWO_WHEELER_RAPID_RESPONSE"
+        },
+        {
+          "sequence": 5,
+          "h3_cell": "8861892c49fffff",
+          "h3_index": "8861892c49fffff",
+          "police_station": "K.R. Pura",
+          "junction_name": "No Junction",
+          "zone_id": "21",
+          "enforcement_priority_score": 0.15,
+          "hotspot_tier": "HIGH",
+          "latitude": 13.020757,
+          "longitude": 77.685539,
+          "recommended_vehicle": "TWO_WHEELER_PATROL"
+        }
+      ]
+    },
+    {
+      "officer_id": "OFFICER_13",
+      "route_id": "OFFICER_13",
+      "zone_id": "11",
+      "n_stops": 3,
+      "total_route_priority_score": 0.6033,
+      "estimated_route_distance_km": 3.04,
+      "enforcement_priority": "LOW",
+      "assigned_vehicle_type": "FOUR_WHEELER_PATROL",
+      "estimated_coverage_mins": 15,
+      "station_sequence": [
+        "Madiwala",
+        "Madiwala",
+        "HSR Layout"
+      ],
+      "optimized_path_coordinates": [
+        [
+          12.92027,
+          77.621924
+        ],
+        [
+          12.925366,
+          77.618869
+        ],
+        [
+          12.912053,
+          77.636057
+        ]
+      ],
+      "priority_violations": 603,
+      "route": [
+        {
+          "sequence": 1,
+          "h3_cell": "88618925c9fffff",
+          "h3_index": "88618925c9fffff",
+          "police_station": "Madiwala",
+          "junction_name": "BTP137 - Madiwala Traffic PS Junction",
+          "zone_id": "11",
+          "enforcement_priority_score": 0.2678,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.92027,
+          "longitude": 77.621924,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 2,
+          "h3_cell": "88618925c1fffff",
+          "h3_index": "88618925c1fffff",
+          "police_station": "Madiwala",
+          "junction_name": "BTP137 - Madiwala Traffic PS Junction",
+          "zone_id": "11",
+          "enforcement_priority_score": 0.2198,
+          "hotspot_tier": "HIGH",
+          "latitude": 12.925366,
+          "longitude": 77.618869,
+          "recommended_vehicle": "FOUR_WHEELER_PATROL"
+        },
+        {
+          "sequence": 3,
+          "h3_cell": "8861892421fffff",
+          "h3_index": "8861892421fffff",
+          "police_station": "HSR Layout",
+          "junction_name": "No Junction",
+          "zone_id": "11",
+          "enforcement_priority_score": 0.1157,
+          "hotspot_tier": "MEDIUM",
+          "latitude": 12.912053,
+          "longitude": 77.636057,
+          "recommended_vehicle": "TWO_WHEELER_RAPID_RESPONSE"
+        }
+      ]
+    },
+    {
+      "officer_id": "OFFICER_20",
+      "route_id": "OFFICER_20",
+      "zone_id": "22",
+      "n_stops": 3,
+      "total_route_priority_score": 0.3707,
+      "estimated_route_distance_km": 7.76,
+      "enforcement_priority": "LOW",
+      "assigned_vehicle_type": "TWO_WHEELER_PATROL",
+      "estimated_coverage_mins": 39,
+      "station_sequence": [
+        "Chikkajala",
+        "Chikkajala",
+        "Yelahanka"
+      ],
+      "optimized_path_coordinates": [
+        [
+          13.138605,
+          77.621411
+        ],
+        [
+          13.151087,
+          77.618273
+        ],
+        [
+          13.097256,
+          77.599333
+        ]
+      ],
+      "priority_violations": 371,
+      "route": [
+        {
+          "sequence": 1,
+          "h3_cell": "8860169741fffff",
+          "h3_index": "8860169741fffff",
+          "police_station": "Chikkajala",
+          "junction_name": "No Junction",
+          "zone_id": "22",
+          "enforcement_priority_score": 0.15,
+          "hotspot_tier": "HIGH",
+          "latitude": 13.138605,
+          "longitude": 77.621411,
+          "recommended_vehicle": "TWO_WHEELER_PATROL"
+        },
+        {
+          "sequence": 2,
+          "h3_cell": "886016970dfffff",
+          "h3_index": "886016970dfffff",
+          "police_station": "Chikkajala",
+          "junction_name": "No Junction",
+          "zone_id": "22",
+          "enforcement_priority_score": 0.1,
+          "hotspot_tier": "MEDIUM",
+          "latitude": 13.151087,
+          "longitude": 77.618273,
+          "recommended_vehicle": "TWO_WHEELER_PATROL"
+        },
+        {
+          "sequence": 3,
+          "h3_cell": "8860169669fffff",
+          "h3_index": "8860169669fffff",
+          "police_station": "Yelahanka",
+          "junction_name": "No Junction",
+          "zone_id": "22",
+          "enforcement_priority_score": 0.1207,
+          "hotspot_tier": "MEDIUM",
+          "latitude": 13.097256,
+          "longitude": 77.599333,
+          "recommended_vehicle": "TWO_WHEELER_RAPID_RESPONSE"
+        }
+      ]
+    }
+  ]
+}
