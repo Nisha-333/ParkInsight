@@ -2,7 +2,7 @@
 
 AI-driven parking intelligence dashboard. Production-grade prototype over ML notebook outputs, with role-based access, JWT auth, an AI Copilot, and citizen/police/admin workflows.
 
-🌐 **Live Demo:** [https://your-deployment-url.onrender.com](https://your-deployment-url.onrender.com) *(replace with your actual Render URL)*
+🌐 **Live Demo:** [https://parkinsight.onrender.com](https://parkinsight.onrender.com) *(replace with your actual Render URL)*
 
 ---
 
