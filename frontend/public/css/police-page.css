@@ -1,0 +1,460 @@
+/* ════════════════════════════════════════════════════════════════════════
+   POLICE-PAGE.CSS — Command-centre dark theme. Palantir/ArcGIS aesthetic.
+   Used by the Operations page: live map (center) + hotspot/complaint
+   queue (right) — always dark regardless of global theme.
+   Other police pages (Complaints, Hotspots, Patrol Route, Analytics) reuse
+   the KPI bar + AI Copilot button, and additionally use the theme-aware
+   page/sidebar/card styles below (light or dark, following the global
+   theme toggle, consistent with the admin map-page.css card language).
+   ════════════════════════════════════════════════════════════════════════ */
+
+/* ══ POLICE-SPECIFIC DARK OVERRIDES (always dark regardless of global theme) ══ */
+.police-shell {
+  --pc-bg:       #080c14;
+  --pc-panel:    #0d1420;
+  --pc-panel2:   #111827;
+  --pc-border:   #1e2d45;
+  --pc-border2:  #243450;
+  --pc-blue:     #3b82f6;
+  --pc-blue-dim: rgba(59,130,246,.15);
+  --pc-red:      #ef4444;
+  --pc-red-dim:  rgba(239,68,68,.12);
+  --pc-amber:    #f59e0b;
+  --pc-amber-dim:rgba(245,158,11,.12);
+  --pc-green:    #00d98e;
+  --pc-green-dim:rgba(0,217,142,.1);
+  --pc-purple:   #a78bfa;
+  --pc-text:     #e2e8f0;
+  --pc-text2:    #6b7fa8;
+  --pc-muted:    #374560;
+  --pc-mono:     'JetBrains Mono', monospace;
+  --pc-scan:     rgba(59,130,246,.04);
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: var(--pc-bg);
+  color: var(--pc-text);
+  font-family: var(--font);
+  overflow: hidden;
+}
+
+/* ══ SCAN LINE TEXTURE ══ */
+.police-shell::before {
+  content:'';
+  position:fixed; inset:0;
+  background:repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    var(--pc-scan) 2px,
+    var(--pc-scan) 4px
+  );
+  pointer-events:none; z-index:0;
+}
+
+/* ══ KPI BAR ══ */
+.pc-kpi-bar {
+  display: flex;
+  gap: 1px;
+  background: #030507;
+  border-bottom: 1px solid var(--pc-border);
+  flex-shrink: 0;
+  position: relative; z-index: 2;
+}
+.pc-kpi {
+  flex: 1;
+  padding: 7px 14px;
+  background: var(--pc-panel);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  transition: background .15s;
+  cursor: default;
+  min-width: 0;
+}
+.pc-kpi:hover { background: var(--pc-panel2); }
+.pc-kpi-label {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--pc-text2);
+}
+.pc-kpi-val {
+  font-size: 18px;
+  font-weight: 800;
+  font-family: var(--pc-mono);
+  line-height: 1;
+  color: var(--pc-text);
+}
+.pc-kpi-val.danger { color: var(--pc-red); }
+.pc-kpi-val.warn   { color: var(--pc-amber); }
+.pc-kpi-val.ok     { color: var(--pc-green); }
+.pc-kpi-val.blue   { color: var(--pc-blue); }
+.pc-kpi-val.purple { color: var(--pc-purple); }
+
+/* ══ TWO-PANEL BODY (map | task & complaint queue) ══ */
+.pc-body {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 0;
+  overflow: hidden;
+  position: relative; z-index: 1;
+}
+
+/* ══ SIDEBAR PANEL (Operations right panel) ══ */
+.pc-right {
+  background: var(--pc-panel);
+  border-left: 1px solid var(--pc-border);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* ══ SECTION HEADERS ══ */
+.pc-section-hdr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--pc-border);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--pc-blue);
+  background: rgba(59,130,246,.04);
+  flex-shrink: 0;
+}
+.pc-section-hdr .pc-hdr-badge {
+  background: var(--pc-blue-dim);
+  color: var(--pc-blue);
+  font-size: 9px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-family: var(--pc-mono);
+}
+
+/* ══ TASK CARDS ══ */
+.pc-task-card {
+  background: var(--pc-panel2);
+  border: 1px solid var(--pc-border2);
+  border-left: 3px solid var(--pc-border2);
+  border-radius: 5px;
+  padding: 9px 10px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  transition: all .15s;
+}
+.pc-task-card:hover { border-color: var(--pc-blue); border-left-color: var(--pc-blue); background: rgba(59,130,246,.05); }
+.pc-task-card.critical { border-left-color: var(--pc-red); }
+.pc-task-card.high     { border-left-color: var(--pc-amber); }
+.pc-task-card.medium   { border-left-color: var(--pc-blue); }
+.pc-task-card.low      { border-left-color: var(--pc-green); }
+
+.pc-task-top { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.pc-task-id  { font-size: 9px; color: var(--pc-text2); font-family: var(--pc-mono); }
+.pc-task-badge {
+  font-size: 8px; font-weight: 800; letter-spacing: .5px;
+  padding: 1px 5px; border-radius: 2px; text-transform: uppercase;
+}
+.pc-task-badge.critical { background: var(--pc-red-dim);   color: var(--pc-red);    border: 1px solid rgba(239,68,68,.2); }
+.pc-task-badge.high     { background: var(--pc-amber-dim); color: var(--pc-amber);  border: 1px solid rgba(245,158,11,.2); }
+.pc-task-badge.medium   { background: var(--pc-blue-dim);  color: var(--pc-blue);   border: 1px solid rgba(59,130,246,.2); }
+.pc-task-badge.low      { background: var(--pc-green-dim); color: var(--pc-green);  border: 1px solid rgba(0,217,142,.2); }
+
+.pc-task-loc  { font-size: 11px; font-weight: 700; color: var(--pc-text); margin-top: 3px; }
+.pc-task-meta { font-size: 10px; color: var(--pc-text2); margin-top: 2px; font-family: var(--pc-mono); }
+
+/* ══ COMPLAINT CARD ══ */
+.pc-complaint-card {
+  background: var(--pc-panel2);
+  border: 1px solid var(--pc-border2);
+  border-radius: 5px;
+  padding: 9px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  transition: border-color .15s;
+}
+.pc-complaint-card:hover { border-color: var(--pc-amber); }
+.pc-complaint-top { display: flex; gap: 8px; align-items: flex-start; }
+.pc-complaint-photo {
+  width: 42px; height: 42px; border-radius: 4px;
+  background: var(--pc-bg); border: 1px solid var(--pc-border);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 18px; flex-shrink: 0;
+}
+.pc-complaint-info { flex: 1; min-width: 0; }
+.pc-complaint-type { font-size: 11px; font-weight: 700; color: var(--pc-text); }
+.pc-complaint-loc  { font-size: 10px; color: var(--pc-text2); margin-top: 1px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pc-complaint-time { font-size: 9px; color: var(--pc-muted); font-family: var(--pc-mono); margin-top: 2px; }
+.pc-complaint-btns { display: flex; gap: 3px; margin-top: 7px; }
+.pc-complaint-btn {
+  flex: 1; font-size: 9px; font-weight: 700; padding: 4px 3px;
+  border-radius: 3px; border: 1px solid var(--pc-border2);
+  background: var(--pc-panel); color: var(--pc-text2);
+  cursor: pointer; text-align: center; transition: all .1s;
+  font-family: var(--font);
+}
+.pc-complaint-btn.accept:hover  { background: var(--pc-green-dim); border-color: var(--pc-green); color: var(--pc-green); }
+.pc-complaint-btn.invest:hover  { background: var(--pc-blue-dim);  border-color: var(--pc-blue);  color: var(--pc-blue); }
+.pc-complaint-btn.resolve:hover { background: var(--pc-green-dim); border-color: var(--pc-green); color: var(--pc-green); }
+.pc-complaint-btn.reject:hover  { background: var(--pc-red-dim);   border-color: var(--pc-red);   color: var(--pc-red); }
+
+/* ══ MAP CENTER PANEL ══ */
+.pc-center {
+  display: flex; flex-direction: column;
+  position: relative; overflow: hidden;
+}
+.pc-map-container {
+  flex: 1;
+  position: relative;
+}
+#police-ops-map {
+  width: 100%; height: 100%;
+}
+
+/* ══ MAP HUD OVERLAY ══ */
+.pc-map-hud {
+  position: absolute;
+  top: 10px; left: 10px;
+  z-index: 500;
+  display: flex; flex-direction: column; gap: 6px;
+}
+.pc-map-layer-bar {
+  background: rgba(8,12,20,.88);
+  border: 1px solid var(--pc-border2);
+  border-radius: 5px;
+  padding: 5px 8px;
+  display: flex; gap: 4px; flex-wrap: wrap;
+  backdrop-filter: blur(8px);
+  max-width: 360px;
+}
+.pc-layer-btn {
+  font-size: 9px; font-weight: 700; padding: 3px 8px;
+  border-radius: 3px; border: 1px solid var(--pc-border2);
+  background: transparent; color: var(--pc-text2);
+  cursor: pointer; transition: all .1s; letter-spacing: .3px;
+  font-family: var(--font);
+}
+.pc-layer-btn.active { background: var(--pc-blue-dim); border-color: var(--pc-blue); color: var(--pc-blue); }
+.pc-layer-btn.active.red    { background: var(--pc-red-dim);   border-color: var(--pc-red);   color: var(--pc-red); }
+.pc-layer-btn.active.amber  { background: var(--pc-amber-dim); border-color: var(--pc-amber); color: var(--pc-amber); }
+.pc-layer-btn.active.green  { background: var(--pc-green-dim); border-color: var(--pc-green); color: var(--pc-green); }
+.pc-layer-btn.active.purple { background: rgba(167,139,250,.12); border-color: var(--pc-purple); color: var(--pc-purple); }
+
+/* ══ MAP LEGEND ══ */
+.pc-map-legend {
+  position: absolute;
+  bottom: 30px; left: 10px;
+  z-index: 500;
+  background: rgba(8,12,20,.88);
+  border: 1px solid var(--pc-border2);
+  border-radius: 5px;
+  padding: 8px 10px;
+  backdrop-filter: blur(8px);
+}
+.pc-legend-row { display: flex; align-items: center; gap: 6px; margin-bottom: 3px; font-size: 9px; color: var(--pc-text2); }
+.pc-legend-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+
+/* ══ AI COPILOT SIDEBAR ══ */
+.pc-copilot-toggle {
+  position: absolute; top: 50%; right: 300px;
+  transform: translateY(-50%);
+  z-index: 600;
+  background: rgba(8,12,20,.9);
+  border: 1px solid var(--pc-blue);
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  color: var(--pc-blue);
+  cursor: pointer;
+  padding: 10px 6px;
+  font-size: 9px;
+  writing-mode: vertical-lr;
+  letter-spacing: 2px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: var(--font);
+  transition: background .1s;
+}
+.pc-copilot-toggle:hover { background: var(--pc-blue-dim); }
+
+.pc-copilot-panel {
+  position: absolute; top: 0; right: 0; bottom: 0;
+  width: 280px;
+  background: rgba(8,12,20,.96);
+  border-left: 1px solid var(--pc-border2);
+  backdrop-filter: blur(12px);
+  z-index: 550;
+  display: flex; flex-direction: column;
+  transform: translateX(100%);
+  transition: transform .25s cubic-bezier(.4,0,.2,1);
+}
+.pc-copilot-panel.open { transform: translateX(0); }
+
+.pc-copilot-hdr {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--pc-border2);
+  display: flex; align-items: center; justify-content: space-between;
+  flex-shrink: 0;
+}
+.pc-copilot-title { font-size: 11px; font-weight: 700; color: var(--pc-blue); letter-spacing: 1px; }
+.pc-copilot-close { background: none; border: none; color: var(--pc-text2); cursor: pointer; font-size: 16px; }
+.pc-copilot-msgs  { flex: 1; overflow-y: auto; padding: 10px; display: flex; flex-direction: column; gap: 8px; }
+.pc-copilot-msg {
+  padding: 8px 10px; border-radius: 6px; font-size: 11px; line-height: 1.5;
+}
+.pc-copilot-msg.user    { background: var(--pc-blue-dim); color: var(--pc-blue); border: 1px solid rgba(59,130,246,.15); align-self: flex-end; max-width: 90%; }
+.pc-copilot-msg.ai      { background: var(--pc-panel2); color: var(--pc-text); border: 1px solid var(--pc-border2); align-self: flex-start; max-width: 100%; }
+.pc-copilot-msg.ai .copilot-label { font-size: 9px; font-weight: 800; letter-spacing: 1px; color: var(--pc-blue); margin-bottom: 4px; }
+.pc-copilot-suggestions { padding: 8px 10px; border-top: 1px solid var(--pc-border2); display: flex; flex-direction: column; gap: 4px; flex-shrink: 0; }
+.pc-copilot-chip {
+  background: var(--pc-panel2); border: 1px solid var(--pc-border2);
+  color: var(--pc-text2); border-radius: 4px; padding: 5px 8px;
+  font-size: 10px; cursor: pointer; text-align: left;
+  transition: all .1s; font-family: var(--font);
+}
+.pc-copilot-chip:hover { border-color: var(--pc-blue); color: var(--pc-blue); background: var(--pc-blue-dim); }
+.pc-copilot-input-row { padding: 8px 10px; border-top: 1px solid var(--pc-border2); display: flex; gap: 5px; flex-shrink: 0; }
+.pc-copilot-input {
+  flex: 1; background: var(--pc-panel2); border: 1px solid var(--pc-border2);
+  color: var(--pc-text); border-radius: 4px; padding: 6px 8px; font-size: 11px;
+  font-family: var(--font);
+}
+.pc-copilot-input:focus { outline: none; border-color: var(--pc-blue); }
+.pc-copilot-send {
+  background: var(--pc-blue); color: #fff; border: none; border-radius: 4px;
+  padding: 6px 10px; cursor: pointer; font-size: 12px;
+}
+
+/* ══ EMERGENCY BUTTON ══ */
+.pc-emergency-btn {
+  background: linear-gradient(135deg, #7f1d1d, #991b1b);
+  border: 2px solid #ef4444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 9px;
+  font-size: 11px; font-weight: 800;
+  letter-spacing: 1px; text-transform: uppercase;
+  cursor: pointer; width: 100%;
+  font-family: var(--font);
+  animation: emergency-pulse 3s ease-in-out infinite;
+  transition: all .15s;
+  margin: 8px 10px; width: calc(100% - 20px);
+}
+.pc-emergency-btn:hover {
+  background: linear-gradient(135deg, #991b1b, #b91c1c);
+  box-shadow: 0 0 20px rgba(239,68,68,.4);
+  animation: none;
+}
+@keyframes emergency-pulse {
+  0%,100% { box-shadow: 0 0 6px rgba(239,68,68,.3); }
+  50%      { box-shadow: 0 0 18px rgba(239,68,68,.6); }
+}
+
+/* ══ POPUPS ══ */
+.pc-popup { background: var(--pc-panel); border: 1px solid var(--pc-border2); border-radius: 7px; padding: 12px; min-width: 200px; color: var(--pc-text); font-family: var(--font); }
+.pc-popup-title  { font-size: 12px; font-weight: 700; color: var(--pc-text); margin-bottom: 6px; }
+.pc-popup-row    { display:flex;justify-content:space-between;font-size:10px;padding:3px 0;border-bottom:1px solid var(--pc-border); color:var(--pc-text2); }
+.pc-popup-row b  { color:var(--pc-text); font-family:var(--pc-mono); }
+
+/* ══════════════════════════════════════════════════════════════════════════
+   STANDALONE POLICE PAGES (Complaints, Hotspots, Patrol Route, Analytics)
+   These follow the global light/dark theme (var(--panel) etc. from base.css)
+   rather than the Operations page's forced-dark command-centre look — they
+   reuse the same card/sidebar/select language as the admin map-page.css
+   (.fc-card, .route-card, .map-layout) so the whole app stays consistent.
+   ══════════════════════════════════════════════════════════════════════════ */
+
+/* ── PAGE WRAPPER ──
+   #content (base.css) is already `flex:1; overflow:auto`, so this wrapper
+   must NOT set its own height/overflow — doing so created a second,
+   conflicting scroll box and broke the calc(100vh - 100px) sidebar+map
+   grids on the Hotspots and Patrol Route pages. Let it flow naturally. */
+.pc-page-wrap {
+  background: var(--bg);
+  min-height: 100%;
+}
+
+/* ── SIDEBAR + MAP SPLIT LAYOUT (Hotspots / Patrol Route) ──
+   100px = header(54px) + nav(~46px), the chrome that sits above #content
+   and isn't part of its own flex height. The KPI bar inside .pc-page-wrap
+   is a normal flex sibling, so it's subtracted naturally rather than
+   needing a second magic number. */
+.pc-split-layout {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  height: calc(100vh - 100px);
+}
+@media (max-width: 900px) {
+  .pc-split-layout { grid-template-columns: 1fr; height: auto; }
+  .pc-split-layout .pc-sidebar { height: auto; max-height: 360px; }
+  .pc-split-layout > div[id$="-map"] { height: 360px; }
+}
+.pc-sidebar {
+  background: var(--panel);
+  border-right: 1px solid var(--border);
+  padding: 16px;
+  overflow-y: auto;
+  height: 100%;
+}
+.pc-section-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 12px;
+}
+
+/* ── LIST CARDS (hotspot / patrol stop rows) ── */
+.pc-card {
+  background: var(--panel2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: box-shadow .15s, border-color .15s;
+}
+.pc-card:hover { border-color: var(--accent); box-shadow: var(--shadow-md); }
+.pc-card-title { font-size: 13px; font-weight: 700; color: var(--text); }
+.pc-card-meta  { font-size: 11px; color: var(--text2); margin-top: 3px; }
+
+/* ── EMPTY STATE ── */
+.pc-empty {
+  padding: 24px 14px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+/* ── FORM CONTROLS (filters, action forms) ── */
+.pc-select {
+  background: var(--panel2);
+  border: 1px solid var(--border2);
+  color: var(--text);
+  padding: 7px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 12.5px;
+  font-family: var(--font);
+  cursor: pointer;
+}
+.pc-select:focus { outline: none; border-color: var(--accent); }
+
+/* ── SMALL BUTTON (refresh / retry / cancel) ── */
+.pc-btn-sm {
+  background: var(--panel);
+  border: 1px solid var(--border2);
+  color: var(--text2);
+  padding: 7px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: var(--font);
+  transition: all .15s;
+}
+.pc-btn-sm:hover { border-color: var(--accent); color: var(--accent); }
