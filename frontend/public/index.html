@@ -1,1 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>ParkInsight — Bengaluru</title>
+<link rel="icon" type="image/png" href="logo.png"/>
+<link rel="shortcut icon" href="logo.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
 
+<!-- Stylesheets -->
+<link rel="stylesheet" href="css/base.css"/>
+<link rel="stylesheet" href="css/map-page.css"/>
+<link rel="stylesheet" href="css/police-page.css"/>
+<link rel="stylesheet" href="css/citizen-page.css"/>
+</head>
+<body>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<!-- LOGIN SCREEN -->
+<div id="login-screen">
+  <div class="login-traffic-bg" aria-hidden="true">
+    <div class="login-skyline"></div>
+    <div class="login-road"></div>
+    <div class="login-lane-line"></div>
+    <div class="login-car-streak streak-1"></div>
+    <div class="login-car-streak streak-2"></div>
+    <div class="login-car-streak streak-3"></div>
+    <div class="login-car-streak streak-4 reverse"></div>
+    <div class="login-car-streak streak-5 reverse"></div>
+    <div class="login-car-streak streak-6"></div>
+  </div>
+  <div class="login-noise"></div>
+  <div class="login-inner">
+    <div class="login-eyebrow">FLIPKART GRIDLOCK CHALLENGE · BENGALURU TRAFFIC POLICE</div>
+    <div class="login-logo-wrap">
+      <img src="logo.png" alt="ParkInsight" class="login-logo-img"/>
+      <p>AI-powered parking enforcement intelligence. Ranks illegal-parking hotspots by traffic impact, turns them into optimised patrol beats, and puts commuter rerouting data in citizens' hands.</p>
+    </div>
+    <div class="login-stats">
+      <div class="login-stat"><div class="login-stat-val">—</div><div class="login-stat-label">Violations Tracked</div></div>
+      <div class="login-stat"><div class="login-stat-val">—</div><div class="login-stat-label">H3 Urban Cells Scored</div></div>
+      <div class="login-stat"><div class="login-stat-val">—</div><div class="login-stat-label">Top-10 Zones Citywide Impact</div></div>
+    </div>
+    <div class="role-cards">
+      <div class="role-card role-admin" onclick="login('admin')">
+        <div class="role-icon">🛰</div>
+        <div class="role-name">Admin</div>
+        <div class="role-desc">Command Center · Full analytics access</div>
+      </div>
+      <div class="role-card role-police" onclick="login('police')">
+        <div class="role-icon">🚔</div>
+        <div class="role-name">Police Officer</div>
+        <div class="role-desc">Ops portal · Patrol routing · AI Copilot</div>
+      </div>
+      <div class="role-card role-citizen" onclick="login('citizen')">
+        <div class="role-icon">🏙</div>
+        <div class="role-name">Citizen</div>
+        <div class="role-desc">Report violations · Civic Credits · Wallet</div>
+      </div>
+    </div>
+    <!-- Guest Mode -->
+    <div class="login-guest-row">
+      <div class="login-guest-divider"><span>or</span></div>
+      <button class="login-guest-btn" onclick="loginGuest()">
+        Continue Without Signing In →
+      </button>
+      <div class="login-guest-note">Access live hotspot maps, alerts, and complaint reporting — no account needed</div>
+    </div>
+    <div class="login-period">10 Nov 2023 – 08 Apr 2024 · Bengaluru Metropolitan Region</div>
+  </div>
+</div>
+
+<!-- APP SHELL -->
+<header id="app-header" style="display:none">
+  <div class="logo">
+    <img src="logo.png" alt="ParkInsight" class="header-logo-img"/>
+    <span class="logo-sub">Bengaluru</span>
+  </div>
+  <div class="hdr-right">
+    <div class="live-text"><div class="live-dot"></div>LIVE</div>
+    <span class="hdr-city" id="hdr-city"></span>
+    <select class="precinct-select" id="precinct-select" style="display:none" onchange="snapToPrecinct(this.value)">
+      <option value="">All Precincts</option>
+      <option>Upparpet</option><option>Shivajinagar</option><option>Madiwala</option>
+      <option>Koramangala</option><option>Hebbal</option><option>Jayanagar</option>
+      <option>Basavanagudi</option><option>Whitefield</option>
+    </select>
+    <div id="hdr-junction-search" style="display:none;position:relative">
+      <input id="hdr-junction-input" type="text" autocomplete="off" placeholder="🔍 Search any junction…" class="precinct-select" style="cursor:text;width:200px"/>
+      <div id="hdr-junction-results" class="junction-results" style="width:280px;right:0"></div>
+    </div>
+    <div class="export-row" id="export-btn-group" style="display:none">
+      <button class="btn-export" onclick="exportCSVReport()">📊 CSV Report</button>
+      <button class="btn-export-outline" onclick="exportPDFBrief()">📄 PDF Brief</button>
+    </div>
+    <span id="hdr-user-name" style="font-size:12px;font-weight:600;color:var(--text2)"></span>
+    <span class="role-badge" id="hdr-role-badge"></span>
+    <button class="theme-btn" id="theme-btn" onclick="toggleTheme()" title="Toggle light / dark theme">🌙</button>
+    <button id="btn-logout" onclick="logout()">Sign Out</button>
+  </div>
+</header>
+<nav id="app-nav" style="display:none"></nav>
+<div id="content"></div>
+
+<!-- Markdown parser for copilot responses -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+<!-- Scripts -->
+<script src="js/core.js"></script>
+<script src="js/admin-cmd.js"></script>
+<script src="js/admin-map.js"></script>
+<script src="js/admin-other.js"></script>
+<script src="js/police.js"></script>
+<script src="js/citizen.js"></script>
+
+<style>
+/* ── Login Guest Row ── */
+.login-guest-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 500px;
+}
+.login-guest-divider {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 12px;
+  color: #334155;
+  font-size: 12px;
+}
+.login-guest-divider::before,
+.login-guest-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: rgba(255,255,255,.08);
+}
+.login-guest-btn {
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.15);
+  color: #94a3b8;
+  padding: 11px 28px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .2s;
+  font-family: var(--font);
+  letter-spacing: .2px;
+}
+.login-guest-btn:hover {
+  background: rgba(255,255,255,.1);
+  border-color: rgba(255,255,255,.25);
+  color: #e2e8f0;
+  transform: translateY(-1px);
+}
+.login-guest-note {
+  font-size: 11px;
+  color: #475569;
+  text-align: center;
+}
+</style>
+</body>
+</html>
